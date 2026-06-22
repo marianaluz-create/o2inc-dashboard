@@ -1,0 +1,157 @@
+{
+  "workspace": "O2Inc",
+  "gerado_em": "2026-06-22T15:31:49.238907",
+  "dados": {
+    "2026": {
+      "06": {
+        "total_horas": 67.61,
+        "total_faturavel": 67.61,
+        "total_nao_faturavel": 0.0,
+        "por_projeto": [
+          {
+            "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
+            "horas": 26.5
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 16.99
+          },
+          {
+            "nome": "Imperador Burger — Jornada Financeira",
+            "horas": 6.5
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 4.5
+          },
+          {
+            "nome": "FromTherm — Valuation",
+            "horas": 4.0
+          },
+          {
+            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
+            "horas": 3.0
+          },
+          {
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
+            "horas": 2.37
+          },
+          {
+            "nome": "Obralar — Jornada Financeira",
+            "horas": 2.0
+          },
+          {
+            "nome": "Produtos Dalen — Jornada Financeira",
+            "horas": 1.25
+          },
+          {
+            "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
+            "horas": 0.25
+          },
+          {
+            "nome": "IDB Hospitais — Valuation",
+            "horas": 0.25
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "raissa.daros",
+            "total": 48.61,
+            "faturavel": 48.61,
+            "nao_faturavel": 0.0,
+            "entradas": 46
+          },
+          {
+            "nome": "mariana.luz",
+            "total": 19.0,
+            "faturavel": 19.0,
+            "nao_faturavel": 0.0,
+            "entradas": 12
+          }
+        ]
+      },
+      "05": {
+        "total_horas": 44.07,
+        "total_faturavel": 44.07,
+        "total_nao_faturavel": 0.0,
+        "por_projeto": [
+          {
+            "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
+            "horas": 17.8
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 15.22
+          },
+          {
+            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
+            "horas": 2.5
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 2.5
+          },
+          {
+            "nome": "IDB Hospitais — Valuation",
+            "horas": 2.5
+          },
+          {
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
+            "horas": 2.0
+          },
+          {
+            "nome": "Produtos Dalen — Jornada Financeira",
+            "horas": 1.55
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "raissa.daros",
+            "total": 38.52,
+            "faturavel": 38.52,
+            "nao_faturavel": 0.0,
+            "entradas": 32
+          },
+          {
+            "nome": "mariana.luz",
+            "total": 5.55,
+            "faturavel": 5.55,
+            "nao_faturavel": 0.0,
+            "entradas": 7
+          }
+        ]
+      },
+      "04": {
+        "total_horas": 4.0,
+        "total_faturavel": 4.0,
+        "total_nao_faturavel": 0.0,
+        "por_projeto": [
+          {
+            "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
+            "horas": 3.0
+          },
+          {
+            "nome": "IDB Hospitais — Valuation",
+            "horas": 1.0
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "mariana.luz",
+            "total": 2.0,
+            "faturavel": 2.0,
+            "nao_faturavel": 0.0,
+            "entradas": 2
+          },
+          {
+            "nome": "raissa.daros",
+            "total": 2.0,
+            "faturavel": 2.0,
+            "nao_faturavel": 0.0,
+            "entradas": 2
+          }
+        ]
+      }
+    }
+  }
+}
