@@ -1,31 +1,66 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-06-22T17:24:06.082218",
+  "gerado_em": "2026-07-01T20:25:50.930522",
   "dados": {
     "2026": {
+      "07": {
+        "total_horas": 3.0,
+        "total_faturavel": 3.0,
+        "total_nao_faturavel": 0.0,
+        "por_projeto": [
+          {
+            "nome": "Imperador Burger — Jornada Financeira",
+            "horas": 2.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 1.0
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "raissa.daros",
+            "total": 2.0,
+            "faturavel": 2.0,
+            "nao_faturavel": 0.0,
+            "entradas": 2
+          },
+          {
+            "nome": "mariana.luz",
+            "total": 1.0,
+            "faturavel": 1.0,
+            "nao_faturavel": 0.0,
+            "entradas": 1
+          }
+        ]
+      },
       "06": {
-        "total_horas": 69.61,
-        "total_faturavel": 69.61,
+        "total_horas": 91.19,
+        "total_faturavel": 91.19,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
-            "horas": 28.5
+            "horas": 38.08
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 16.99
+            "horas": 18.49
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
-            "horas": 6.5
-          },
-          {
-            "nome": "Asiana — Jornada Financeira",
-            "horas": 4.5
+            "horas": 8.5
           },
           {
             "nome": "FromTherm — Valuation",
+            "horas": 7.0
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 5.0
+          },
+          {
+            "nome": "Obralar — Jornada Financeira",
             "horas": 4.0
           },
           {
@@ -33,12 +68,12 @@
             "horas": 3.0
           },
           {
-            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
-            "horas": 2.37
+            "nome": "Modelcraft — Jornada Financeira",
+            "horas": 2.5
           },
           {
-            "nome": "Obralar — Jornada Financeira",
-            "horas": 2.0
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
+            "horas": 2.37
           },
           {
             "nome": "Produtos Dalen — Jornada Financeira",
@@ -46,7 +81,7 @@
           },
           {
             "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
-            "horas": 0.25
+            "horas": 0.75
           },
           {
             "nome": "IDB Hospitais — Valuation",
@@ -56,17 +91,17 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 50.61,
-            "faturavel": 50.61,
+            "total": 66.69,
+            "faturavel": 66.69,
             "nao_faturavel": 0.0,
-            "entradas": 47
+            "entradas": 60
           },
           {
             "nome": "mariana.luz",
-            "total": 19.0,
-            "faturavel": 19.0,
+            "total": 24.5,
+            "faturavel": 24.5,
             "nao_faturavel": 0.0,
-            "entradas": 11
+            "entradas": 18
           }
         ]
       },
@@ -148,7 +183,7 @@
             "total": 2.0,
             "faturavel": 2.0,
             "nao_faturavel": 0.0,
-            "entradas": 1
+            "entradas": 2
           }
         ]
       }
