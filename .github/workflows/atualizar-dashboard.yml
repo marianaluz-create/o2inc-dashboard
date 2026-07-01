@@ -1,0 +1,44 @@
+name: Atualizar Dashboard de Horas
+
+on:
+  schedule:
+    # Horários em UTC. Brasília (UTC-3): 08h = 11:00 UTC, 17h = 20:00 UTC.
+    # Segunda a sexta (1-5).
+    - cron: "0 11 * * 1-5"
+    - cron: "0 20 * * 1-5"
+  # Permite rodar manualmente pelo botão "Run workflow" na aba Actions.
+  workflow_dispatch:
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Rodar o script do Clockify
+        env:
+          CLOCKIFY_API_KEY: ${{ secrets.CLOCKIFY_API_KEY }}
+        run: python buscar_dados_clockify.py
+
+      - name: Commitar e dar push se dados.json mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain dados.json)" ]; then
+            git add dados.json
+            git commit -m "Atualiza dados automaticamente ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          else
+            echo "Nenhuma mudança em dados.json. Nada a commitar."
+          fi
