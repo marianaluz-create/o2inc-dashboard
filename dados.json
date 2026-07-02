@@ -1,29 +1,33 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-01T20:25:50.930522",
+  "gerado_em": "2026-07-02T17:14:38.076379",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 3.0,
-        "total_faturavel": 3.0,
+        "total_horas": 9.0,
+        "total_faturavel": 9.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
+          {
+            "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
+            "horas": 5.0
+          },
           {
             "nome": "Imperador Burger — Jornada Financeira",
             "horas": 2.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 1.0
+            "horas": 2.0
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 2.0,
-            "faturavel": 2.0,
+            "total": 8.0,
+            "faturavel": 8.0,
             "nao_faturavel": 0.0,
-            "entradas": 2
+            "entradas": 5
           },
           {
             "nome": "mariana.luz",
