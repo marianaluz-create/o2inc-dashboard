@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-03T23:41:04.172133",
+  "gerado_em": "2026-07-06T18:26:50.294208",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 12.0,
-        "total_faturavel": 12.0,
+        "total_horas": 15.7,
+        "total_faturavel": 15.7,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -13,21 +13,25 @@
             "horas": 8.0
           },
           {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 5.2
+          },
+          {
             "nome": "Imperador Burger — Jornada Financeira",
             "horas": 2.0
           },
           {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 2.0
+            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
+            "horas": 0.5
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 11.0,
-            "faturavel": 11.0,
+            "total": 14.7,
+            "faturavel": 14.7,
             "nao_faturavel": 0.0,
-            "entradas": 6
+            "entradas": 8
           },
           {
             "nome": "mariana.luz",
