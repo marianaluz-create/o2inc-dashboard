@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-07T23:31:32.885784",
+  "gerado_em": "2026-07-08T16:52:45.938420",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 23.7,
-        "total_faturavel": 23.7,
+        "total_horas": 24.77,
+        "total_faturavel": 24.77,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -21,6 +21,10 @@
             "horas": 2.0
           },
           {
+            "nome": "FromTherm — Valuation",
+            "horas": 1.07
+          },
+          {
             "nome": "Ediouro — Diagnóstico Econômico Financeiro",
             "horas": 0.5
           }
@@ -32,6 +36,13 @@
             "faturavel": 22.7,
             "nao_faturavel": 0.0,
             "entradas": 13
+          },
+          {
+            "nome": "oliveira",
+            "total": 1.07,
+            "faturavel": 1.07,
+            "nao_faturavel": 0.0,
+            "entradas": 1
           },
           {
             "nome": "mariana.luz",
