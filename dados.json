@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-08T23:45:11.294858",
+  "gerado_em": "2026-07-09T18:13:21.604097",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 30.77,
-        "total_faturavel": 30.77,
+        "total_horas": 36.27,
+        "total_faturavel": 36.27,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,7 +14,11 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 9.2
+            "horas": 11.2
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 3.5
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
@@ -36,10 +40,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 28.7,
-            "faturavel": 28.7,
+            "total": 34.2,
+            "faturavel": 34.2,
             "nao_faturavel": 0.0,
-            "entradas": 17
+            "entradas": 20
           },
           {
             "nome": "oliveira",
