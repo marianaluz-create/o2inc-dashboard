@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-10T17:30:08.629518",
+  "gerado_em": "2026-07-10T23:32:24.244139",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 36.27,
-        "total_faturavel": 36.27,
+        "total_horas": 43.77,
+        "total_faturavel": 43.77,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -18,18 +18,26 @@
           },
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 3.5
+            "horas": 5.0
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
-            "horas": 3.0
+            "horas": 4.0
           },
           {
             "nome": "FromTherm — Valuation",
-            "horas": 1.07
+            "horas": 3.07
           },
           {
             "nome": "Obralar — Jornada Financeira",
+            "horas": 2.0
+          },
+          {
+            "nome": "Sem cliente — AR3 Pro",
+            "horas": 1.0
+          },
+          {
+            "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
             "horas": 1.0
           },
           {
@@ -46,16 +54,16 @@
             "entradas": 20
           },
           {
+            "nome": "mariana.luz",
+            "total": 8.5,
+            "faturavel": 8.5,
+            "nao_faturavel": 0.0,
+            "entradas": 7
+          },
+          {
             "nome": "oliveira",
             "total": 1.07,
             "faturavel": 1.07,
-            "nao_faturavel": 0.0,
-            "entradas": 1
-          },
-          {
-            "nome": "mariana.luz",
-            "total": 1.0,
-            "faturavel": 1.0,
             "nao_faturavel": 0.0,
             "entradas": 1
           }
