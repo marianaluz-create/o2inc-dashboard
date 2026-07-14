@@ -1,16 +1,16 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-14T16:02:39.272049",
+  "gerado_em": "2026-07-14T23:15:32.657384",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 61.77,
-        "total_faturavel": 61.77,
+        "total_horas": 66.27,
+        "total_faturavel": 66.27,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "FromTherm — Valuation",
-            "horas": 17.07
+            "horas": 18.57
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -33,6 +33,14 @@
             "horas": 2.0
           },
           {
+            "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
+            "horas": 1.5
+          },
+          {
+            "nome": "DL Medicamentos — Jornada Financeira",
+            "horas": 1.5
+          },
+          {
             "nome": "Sem cliente — AR3 Pro",
             "horas": 1.0
           },
@@ -52,10 +60,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 39.7,
-            "faturavel": 39.7,
+            "total": 44.2,
+            "faturavel": 44.2,
             "nao_faturavel": 0.0,
-            "entradas": 24
+            "entradas": 29
           },
           {
             "nome": "mariana.luz",
