@@ -1,13 +1,17 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-13T23:26:51.006198",
+  "gerado_em": "2026-07-14T16:02:39.272049",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 47.77,
-        "total_faturavel": 47.77,
+        "total_horas": 61.77,
+        "total_faturavel": 61.77,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
+          {
+            "nome": "FromTherm — Valuation",
+            "horas": 17.07
+          },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
             "horas": 17.0
@@ -23,10 +27,6 @@
           {
             "nome": "Imperador Burger — Jornada Financeira",
             "horas": 4.0
-          },
-          {
-            "nome": "FromTherm — Valuation",
-            "horas": 3.07
           },
           {
             "nome": "Obralar — Jornada Financeira",
@@ -52,17 +52,17 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 38.2,
-            "faturavel": 38.2,
+            "total": 39.7,
+            "faturavel": 39.7,
             "nao_faturavel": 0.0,
-            "entradas": 23
+            "entradas": 24
           },
           {
             "nome": "mariana.luz",
-            "total": 8.5,
-            "faturavel": 8.5,
+            "total": 21.0,
+            "faturavel": 21.0,
             "nao_faturavel": 0.0,
-            "entradas": 7
+            "entradas": 8
           },
           {
             "nome": "oliveira",
