@@ -1,16 +1,16 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-14T23:15:32.657384",
+  "gerado_em": "2026-07-15T16:09:39.713374",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 66.27,
-        "total_faturavel": 66.27,
+        "total_horas": 85.89,
+        "total_faturavel": 85.89,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "FromTherm — Valuation",
-            "horas": 18.57
+            "horas": 38.19
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -67,17 +67,17 @@
           },
           {
             "nome": "mariana.luz",
-            "total": 21.0,
-            "faturavel": 21.0,
+            "total": 23.0,
+            "faturavel": 23.0,
             "nao_faturavel": 0.0,
-            "entradas": 8
+            "entradas": 10
           },
           {
             "nome": "oliveira",
-            "total": 1.07,
-            "faturavel": 1.07,
+            "total": 18.69,
+            "faturavel": 18.69,
             "nao_faturavel": 0.0,
-            "entradas": 1
+            "entradas": 6
           }
         ]
       },
