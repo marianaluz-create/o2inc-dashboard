@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-16T23:14:27.085682",
+  "gerado_em": "2026-07-17T16:01:43.977704",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 89.39,
-        "total_faturavel": 89.39,
+        "total_horas": 95.89,
+        "total_faturavel": 95.89,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,19 +14,23 @@
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
-            "horas": 17.0
+            "horas": 18.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 14.7
+            "horas": 17.2
           },
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 5.0
+            "horas": 7.0
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
             "horas": 4.0
+          },
+          {
+            "nome": "DL Medicamentos — Jornada Financeira",
+            "horas": 2.5
           },
           {
             "nome": "Obralar — Jornada Financeira",
@@ -34,10 +38,6 @@
           },
           {
             "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
-            "horas": 1.5
-          },
-          {
-            "nome": "DL Medicamentos — Jornada Financeira",
             "horas": 1.5
           },
           {
@@ -64,10 +64,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 47.7,
-            "faturavel": 47.7,
+            "total": 54.2,
+            "faturavel": 54.2,
             "nao_faturavel": 0.0,
-            "entradas": 32
+            "entradas": 37
           },
           {
             "nome": "mariana.luz",
