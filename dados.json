@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-20T16:17:26.851846",
+  "gerado_em": "2026-07-20T23:35:01.608721",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 95.89,
-        "total_faturavel": 95.89,
+        "total_horas": 103.89,
+        "total_faturavel": 103.89,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -13,12 +13,12 @@
             "horas": 39.19
           },
           {
-            "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
-            "horas": 18.0
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 24.2
           },
           {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 17.2
+            "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
+            "horas": 18.0
           },
           {
             "nome": "Asiana — Jornada Financeira",
@@ -37,12 +37,12 @@
             "horas": 2.0
           },
           {
-            "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
-            "horas": 1.5
+            "nome": "Sem cliente — AR3 Pro",
+            "horas": 2.0
           },
           {
-            "nome": "Sem cliente — AR3 Pro",
-            "horas": 1.0
+            "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
+            "horas": 1.5
           },
           {
             "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
@@ -64,10 +64,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 54.2,
-            "faturavel": 54.2,
+            "total": 62.2,
+            "faturavel": 62.2,
             "nao_faturavel": 0.0,
-            "entradas": 37
+            "entradas": 40
           },
           {
             "nome": "mariana.luz",
