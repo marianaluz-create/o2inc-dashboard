@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-21T16:06:29.693973",
+  "gerado_em": "2026-07-21T23:15:20.810169",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 103.89,
-        "total_faturavel": 103.89,
+        "total_horas": 108.39,
+        "total_faturavel": 108.39,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,7 +14,7 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 24.2
+            "horas": 26.2
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -37,12 +37,20 @@
             "horas": 2.0
           },
           {
-            "nome": "Sem cliente — AR3 Pro",
+            "nome": "AR3 Pro — Jornada Financeira",
             "horas": 2.0
+          },
+          {
+            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
+            "horas": 1.5
           },
           {
             "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
             "horas": 1.5
+          },
+          {
+            "nome": "Sem cliente — Sem projeto",
+            "horas": 1.0
           },
           {
             "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
@@ -57,17 +65,17 @@
             "horas": 1.0
           },
           {
-            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
+            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
             "horas": 0.5
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 62.2,
-            "faturavel": 62.2,
+            "total": 66.7,
+            "faturavel": 66.7,
             "nao_faturavel": 0.0,
-            "entradas": 40
+            "entradas": 44
           },
           {
             "nome": "mariana.luz",
@@ -86,8 +94,8 @@
         ]
       },
       "06": {
-        "total_horas": 91.19,
-        "total_faturavel": 91.19,
+        "total_horas": 92.19,
+        "total_faturavel": 92.19,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -131,6 +139,10 @@
             "horas": 1.25
           },
           {
+            "nome": "AR3 Pro — Jornada Financeira",
+            "horas": 1.0
+          },
+          {
             "nome": "Vitra empreendimentos — Diagnóstico Econômico Financeiro",
             "horas": 0.75
           },
@@ -142,10 +154,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 66.69,
-            "faturavel": 66.69,
+            "total": 67.69,
+            "faturavel": 67.69,
             "nao_faturavel": 0.0,
-            "entradas": 60
+            "entradas": 61
           },
           {
             "nome": "mariana.luz",
