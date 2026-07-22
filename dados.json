@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-21T23:15:20.810169",
+  "gerado_em": "2026-07-22T16:08:10.902620",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 108.39,
-        "total_faturavel": 108.39,
+        "total_horas": 110.15,
+        "total_faturavel": 110.15,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,7 +14,7 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 26.2
+            "horas": 27.96
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -72,10 +72,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 66.7,
-            "faturavel": 66.7,
+            "total": 68.46,
+            "faturavel": 68.46,
             "nao_faturavel": 0.0,
-            "entradas": 44
+            "entradas": 45
           },
           {
             "nome": "mariana.luz",
