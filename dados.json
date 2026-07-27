@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-27T13:40:27.453080",
+  "gerado_em": "2026-07-27T21:15:52.946826",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 116.15,
-        "total_faturavel": 116.15,
+        "total_horas": 122.15,
+        "total_faturavel": 122.15,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,7 +14,7 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 29.96
+            "horas": 31.29
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -23,6 +23,10 @@
           {
             "nome": "Asiana — Jornada Financeira",
             "horas": 7.0
+          },
+          {
+            "nome": "Obralar — Jornada Financeira",
+            "horas": 4.0
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
@@ -41,12 +45,16 @@
             "horas": 2.5
           },
           {
-            "nome": "Obralar — Jornada Financeira",
+            "nome": "AR3 Pro — Jornada Financeira",
             "horas": 2.0
           },
           {
-            "nome": "AR3 Pro — Jornada Financeira",
-            "horas": 2.0
+            "nome": "Samba Decor — Plano de Contas",
+            "horas": 1.67
+          },
+          {
+            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
+            "horas": 1.5
           },
           {
             "nome": "Ediouro — Diagnóstico Econômico Financeiro",
@@ -63,19 +71,15 @@
           {
             "nome": "Modelcraft — Jornada Financeira",
             "horas": 1.0
-          },
-          {
-            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
-            "horas": 0.5
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 74.46,
-            "faturavel": 74.46,
+            "total": 80.46,
+            "faturavel": 80.46,
             "nao_faturavel": 0.0,
-            "entradas": 51
+            "entradas": 57
           },
           {
             "nome": "mariana.luz",
