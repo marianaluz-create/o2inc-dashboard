@@ -9,13 +9,17 @@ COMO USAR:
 """
 
 import os, sys, json, time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 import requests
 
 API_KEY = os.environ.get("CLOCKIFY_API_KEY", "COLOQUE_SUA_API_KEY_AQUI")
 BASE_URL = "https://api.clockify.me/api/v1"
 HEADERS = {"X-Api-Key": API_KEY, "Content-Type": "application/json"}
+
+# A API devolve horários em UTC. Convertemos para Brasília antes de
+# atribuir mês/semana, senão lançamentos da noite caem no dia seguinte.
+TZ_LOCAL = timezone(timedelta(hours=-3))
 
 
 def checar_api_key():
@@ -69,6 +73,41 @@ def listar_projetos(workspace_id):
     return projetos
 
 
+def listar_tarefas(workspace_id, project_id):
+    """Retorna {task_id: nome} das tarefas (etapas) de um projeto."""
+    tarefas = {}
+    page = 1
+    while True:
+        r = requests.get(
+            f"{BASE_URL}/workspaces/{workspace_id}/projects/{project_id}/tasks",
+            headers=HEADERS,
+            params={"page": page, "page-size": 200},
+        )
+        if r.status_code != 200:
+            # Projeto sem tarefas ou sem permissão: segue sem quebrar.
+            return tarefas
+        lote = r.json()
+        if not lote:
+            break
+        for t in lote:
+            tarefas[t["id"]] = t.get("name") or "Sem etapa"
+        if len(lote) < 200:
+            break
+        page += 1
+        time.sleep(0.15)
+    return tarefas
+
+
+def semana_de(dt_local):
+    """Devolve (chave_ordenavel, rotulo) da semana seg–sex que contém a data."""
+    inicio = dt_local - timedelta(days=dt_local.weekday())
+    fim = inicio + timedelta(days=4)
+    return (
+        inicio.strftime("%Y-%m-%d"),
+        f"{inicio.strftime('%d/%m')} – {fim.strftime('%d/%m')}",
+    )
+
+
 def buscar_entradas_usuario(workspace_id, user_id, data_inicio, data_fim):
     """Busca todas as entradas de tempo de um usuário, paginando."""
     entradas = []
@@ -112,7 +151,10 @@ def duracao_iso_para_segundos(duration_str):
     return h * 3600 + m * 60 + s
 
 
-def processar_entradas(todas_entradas, projetos, membros):
+def processar_entradas(todas_entradas, projetos, membros, tarefas):
+    # detalhe[projeto][(semana, rotulo, ano, mes, colaborador, etapa)] = horas
+    detalhe = defaultdict(lambda: defaultdict(float))
+
     agregados = defaultdict(lambda: {
         "por_projeto": defaultdict(float),
         "por_colaborador": defaultdict(lambda: {
@@ -135,8 +177,9 @@ def processar_entradas(todas_entradas, projetos, membros):
         if segundos <= 0:
             continue
 
-        dt = datetime.fromisoformat(start.replace("Z", "+00:00"))
-        chave = f"{dt.year}-{dt.month:02d}"
+        dt = datetime.fromisoformat(start.replace("Z", "+00:00")).astimezone(TZ_LOCAL)
+        ano_str, mes_str = f"{dt.year}", f"{dt.month:02d}"
+        chave = f"{ano_str}-{mes_str}"
         horas = segundos_para_horas(segundos)
         billable = entrada.get("billable", False)
 
@@ -144,6 +187,12 @@ def processar_entradas(todas_entradas, projetos, membros):
         proj = projetos.get(project_id, {"name": "Sem projeto", "clientName": "Sem cliente"})
         chave_proj = f"{proj['clientName']} — {proj['name']}"
         nome_colab = membros.get(user_id, "Desconhecido")
+        etapa = tarefas.get(entrada.get("taskId")) or "Sem etapa"
+
+        sem_chave, sem_rotulo = semana_de(dt)
+        detalhe[chave_proj][
+            (sem_chave, sem_rotulo, ano_str, mes_str, nome_colab, etapa)
+        ] += horas
 
         b = agregados[chave]
         b["por_projeto"][chave_proj] += horas
@@ -181,7 +230,29 @@ def processar_entradas(todas_entradas, projetos, membros):
                 key=lambda x: -x["total"]
             ),
         }
-    return resultado
+
+    detalhe_projetos = {}
+    for proj, combos in detalhe.items():
+        linhas = [
+            {
+                "semana": sem,
+                "semana_label": rotulo,
+                "ano": ano,
+                "mes": mes,
+                "colaborador": colab,
+                "etapa": etapa,
+                "horas": round(h, 2),
+            }
+            for (sem, rotulo, ano, mes, colab, etapa), h in combos.items()
+            if round(h, 2) > 0
+        ]
+        linhas.sort(key=lambda x: (x["semana"], -x["horas"], x["colaborador"]))
+        detalhe_projetos[proj] = {
+            "total": round(sum(l["horas"] for l in linhas), 2),
+            "linhas": linhas,
+        }
+
+    return resultado, detalhe_projetos
 
 
 def main():
@@ -214,13 +285,24 @@ def main():
         print(f"     {len(entradas_usuario)} entrada(s)")
 
     print(f"\nTotal de entradas: {len(todas_entradas)}")
+
+    ids_projetos = {e.get("projectId") for e, _ in todas_entradas if e.get("projectId")}
+    print(f"Buscando etapas (tarefas) de {len(ids_projetos)} projeto(s)...")
+    tarefas = {}
+    for pid in ids_projetos:
+        tarefas.update(listar_tarefas(workspace_id, pid))
+    print(f"  {len(tarefas)} etapa(s) encontrada(s).")
+
     print("Processando dados...")
-    dados = processar_entradas(todas_entradas, projetos, membros)
+    dados, detalhe_projetos = processar_entradas(
+        todas_entradas, projetos, membros, tarefas
+    )
 
     saida = {
         "workspace": workspace["name"],
         "gerado_em": datetime.now().isoformat(),
         "dados": dados,
+        "detalhe_projetos": detalhe_projetos,
     }
 
     caminho = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados.json")

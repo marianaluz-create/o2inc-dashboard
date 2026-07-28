@@ -114,6 +114,21 @@
   .chart-box { background: rgba(0,0,0,0.2); border: 1px solid var(--gray-border); border-radius: 12px; padding: 20px; }
   .chart-box h3 { font-size: 11px; font-weight: 600; color: var(--white-dim); text-transform: uppercase; letter-spacing: 0.08em; font-family: var(--mono); margin-bottom: 16px; }
   .chart-box canvas { max-height: 200px; }
+  .chart-box-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .chart-box-head h3 { margin-bottom: 0; }
+  .chart-box-wide { margin-bottom: 20px; }
+  .chart-box-wide canvas { max-height: 260px; }
+  .toggle-group { display: flex; gap: 6px; }
+  .chip-mini { background: var(--white-faint); border: 1px solid var(--gray-border); color: var(--white-dim); border-radius: 999px; padding: 4px 12px; font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; cursor: pointer; transition: all 0.15s; }
+  .chip-mini:hover { background: var(--gray-light); color: var(--white); }
+  .chip-mini.active { background: var(--green-soft); border-color: var(--green); color: var(--green); }
+  .modal-subhead { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--white-dim); margin: 24px 0 10px; }
+  .modal-table.cols4 .modal-table-head, .modal-table.cols4 .modal-table-row { grid-template-columns: 1fr 1.1fr 1.1fr 80px; gap: 8px; }
+  .modal-table.cols4 .modal-table-head span:nth-child(2), .modal-table.cols4 .modal-table-head span:nth-child(3) { text-align: left; }
+  .modal-table.cols4 .modal-table-row span:nth-child(2), .modal-table.cols4 .modal-table-row span:nth-child(3) { text-align: left; font-family: var(--sans); font-size: 13px; color: var(--white); }
+  .modal-table.cols4 .modal-table-row span:first-child { font-family: var(--mono); font-size: 11px; }
+  .modal-table-row.grupo-inicio { border-top: 1px solid var(--gray-border); }
+  .modal-hint { font-size: 11px; color: var(--white-dim); margin-top: 10px; line-height: 1.5; }
   .modal-table { background: rgba(0,0,0,0.2); border: 1px solid var(--gray-border); border-radius: 12px; overflow: hidden; }
   .modal-table-head { display: grid; grid-template-columns: 1fr 100px 100px; padding: 12px 20px; border-bottom: 1px solid var(--gray-border); }
   .modal-table-head span { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--white-dim); }
@@ -180,7 +195,21 @@
         <div class="chart-box"><h3>Horas por Mês</h3><canvas id="chart-meses"></canvas></div>
         <div class="chart-box"><h3>Horas por Colaboradora</h3><canvas id="chart-pizza"></canvas></div>
       </div>
+      <div class="chart-box chart-box-wide" id="box-semanas">
+        <div class="chart-box-head">
+          <h3>Horas por Semana (seg–sex)</h3>
+          <div class="toggle-group">
+            <button class="chip-mini active" id="tg-colaborador" onclick="setDimSemana('colaborador')">Colaboradora</button>
+            <button class="chip-mini" id="tg-etapa" onclick="setDimSemana('etapa')">Etapa</button>
+          </div>
+        </div>
+        <canvas id="chart-semanas"></canvas>
+      </div>
       <div class="modal-table" id="modal-table"></div>
+      <div id="bloco-detalhe">
+        <div class="modal-subhead">Detalhe · semana × colaboradora × etapa</div>
+        <div class="modal-table cols4" id="modal-table-detalhe"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -198,7 +227,8 @@ function loadXLSX(cb) {
 }
 
 let DADOS = null, anoSel = null, mesSel = null;
-let chartMeses = null, chartPizza = null;
+let chartMeses = null, chartPizza = null, chartSemanas = null;
+let dimSemana = "colaborador", linhasModal = [];
 const MESES = {"01":"Janeiro","02":"Fevereiro","03":"Março","04":"Abril","05":"Maio","06":"Junho","07":"Julho","08":"Agosto","09":"Setembro","10":"Outubro","11":"Novembro","12":"Dezembro"};
 const CORES = ["#6CF269","#3db83a","#a8f5a6","#1e7a1c","#c8fac7","#8af087","#52d94f","#0d4d0c"];
 
@@ -237,13 +267,55 @@ function renderSeletores() {
   let h = "<span class=\"sel-label\">Ano</span>";
   anos.forEach(a => h += `<button class="chip ${a===anoSel?"active":""}" onclick="selAno(\'${a}\')">${a}</button>`);
   h += "<div class=\"sel-sep\"></div><span class=\"sel-label\">Mês</span>";
+  h += `<button class="chip ${mesSel==="todos"?"active":""}" onclick="selMes('todos')">Todos</button>`;
   meses.forEach(m => h += `<button class="chip ${m===mesSel?"active":""}" onclick="selMes(\'${m}\')">${MESES[m]||m}</button>`);
   document.getElementById("selectors").innerHTML = h;
 }
 
-function selAno(a) { anoSel=a; const ms=Object.keys(DADOS.dados[a]).sort(); mesSel=ms[ms.length-1]; renderSeletores(); renderConteudo(); }
+function selAno(a) {
+  anoSel = a;
+  if (mesSel !== "todos") { const ms=Object.keys(DADOS.dados[a]).sort(); mesSel=ms[ms.length-1]; }
+  renderSeletores(); renderConteudo();
+}
 function selMes(m) { mesSel=m; renderSeletores(); renderConteudo(); }
 function iniciais(n) { return n.split(" ").filter(Boolean).slice(0,2).map(p=>p[0].toUpperCase()).join(""); }
+
+// Soma todos os meses do ano selecionado num único bloco.
+function agregarAno(ano) {
+  const meses = Object.keys(DADOS.dados[ano] || {});
+  if (!meses.length) return null;
+  const proj = {}, colab = {};
+  let th=0, tf=0, tnf=0;
+  meses.forEach(m => {
+    const b = DADOS.dados[ano][m];
+    th += b.total_horas||0; tf += b.total_faturavel||0; tnf += b.total_nao_faturavel||0;
+    (b.por_projeto||[]).forEach(p => proj[p.nome] = (proj[p.nome]||0) + p.horas);
+    (b.por_colaborador||[]).forEach(c => {
+      const a = colab[c.nome] || (colab[c.nome] = {nome:c.nome,total:0,faturavel:0,nao_faturavel:0,entradas:0});
+      a.total += c.total||0; a.faturavel += c.faturavel||0;
+      a.nao_faturavel += c.nao_faturavel||0; a.entradas += c.entradas||0;
+    });
+  });
+  const r2 = v => Math.round(v*100)/100;
+  return {
+    total_horas: r2(th), total_faturavel: r2(tf), total_nao_faturavel: r2(tnf),
+    por_projeto: Object.entries(proj).map(([nome,horas])=>({nome,horas:r2(horas)})).sort((a,b)=>b.horas-a.horas),
+    por_colaborador: Object.values(colab).map(c=>({...c,total:r2(c.total),faturavel:r2(c.faturavel),nao_faturavel:r2(c.nao_faturavel)})).sort((a,b)=>b.total-a.total),
+    meses_incluidos: meses.sort(),
+  };
+}
+
+function blocoAtual() {
+  return mesSel === "todos" ? agregarAno(anoSel) : DADOS.dados[anoSel]?.[mesSel];
+}
+
+function rotuloPeriodo() {
+  return mesSel === "todos" ? `Ano ${anoSel}` : `${MESES[mesSel]||mesSel} / ${anoSel}`;
+}
+
+function nomeArquivoPeriodo() {
+  return mesSel === "todos" ? `Ano_${anoSel}` : `${MESES[mesSel]||mesSel}_${anoSel}`;
+}
 
 function agruparPorTipo(projetos) {
   const mapa = {};
@@ -255,7 +327,7 @@ function agruparPorTipo(projetos) {
 }
 
 function renderConteudo() {
-  const b = DADOS.dados[anoSel]?.[mesSel];
+  const b = blocoAtual();
   if (!b) { document.getElementById("content").innerHTML=`<div class="empty"><strong>Sem dados neste período</strong>Escolha outro mês ou ano.</div>`; return; }
 
   const totalH=b.total_horas||0, totalF=b.total_faturavel||0;
@@ -269,7 +341,7 @@ function renderConteudo() {
 
   // KPIs — agora com 4 cards incluindo tipos de serviço
   h += `<div class="kpi-row">
-    <div class="kpi-card highlight"><div class="kpi-label">Horas totais</div><div class="kpi-value">${totalH.toLocaleString("pt-BR")}<span class="unit">h</span></div><div class="kpi-sub">${b.por_colaborador.length} colaborador(es)</div></div>
+    <div class="kpi-card highlight"><div class="kpi-label">Horas totais</div><div class="kpi-value">${totalH.toLocaleString("pt-BR")}<span class="unit">h</span></div><div class="kpi-sub">${b.meses_incluidos ? `${b.meses_incluidos.length} mês(es) · ` : ""}${b.por_colaborador.length} colaborador(es)</div></div>
     <div class="kpi-card"><div class="kpi-label">Taxa faturável</div><div class="kpi-value">${pct}<span class="unit">%</span></div><div class="kpi-sub">${totalF.toLocaleString("pt-BR")}h de ${totalH.toLocaleString("pt-BR")}h</div></div>
     <div class="kpi-card"><div class="kpi-label">Projetos ativos</div><div class="kpi-value">${b.por_projeto.length}</div><div class="kpi-sub">com horas lançadas</div></div>
     <div class="kpi-card"><div class="kpi-label">Tipos de serviço</div><div class="kpi-value">${tiposServico.length}</div><div class="kpi-sub">categorias distintas</div></div>
@@ -311,6 +383,17 @@ function renderConteudo() {
 }
 
 // ── Modal por PROJETO ──
+// Linhas detalhadas (semana/colaboradora/etapa) de um ou mais projetos.
+function linhasDetalhe(filtroNomeProjeto) {
+  const det = DADOS.detalhe_projetos || {};
+  const out = [];
+  Object.keys(det).forEach(proj => {
+    if (!filtroNomeProjeto(proj)) return;
+    (det[proj].linhas || []).forEach(l => out.push(l));
+  });
+  return out;
+}
+
 function abrirModalProjeto(nomeEnc) {
   const nome = decodeURIComponent(nomeEnc);
   const horasPorMes = {}, horasPorColab = {};
@@ -323,20 +406,39 @@ function abrirModalProjeto(nomeEnc) {
       const chave = `${MESES[mes]||mes}/${ano}`;
       horasPorMes[chave] = (horasPorMes[chave]||0) + p.horas;
       total += p.horas;
-      b.por_colaborador.forEach(c => {
-        const est = b.total_horas > 0 ? Math.round(p.horas * (c.total/b.total_horas) * 100)/100 : 0;
-        if (est > 0) horasPorColab[c.nome] = (horasPorColab[c.nome]||0) + est;
-      });
     });
   });
+
+  const linhas = linhasDetalhe(proj => proj === nome);
+  if (linhas.length) {
+    // Dado real, vindo do detalhe.
+    linhas.forEach(l => horasPorColab[l.colaborador] = (horasPorColab[l.colaborador]||0) + l.horas);
+  } else {
+    // Fallback (dados.json antigo, sem detalhe): rateio proporcional — estimativa.
+    Object.keys(DADOS.dados).sort().forEach(ano => {
+      Object.keys(DADOS.dados[ano]).sort().forEach(mes => {
+        const b = DADOS.dados[ano][mes];
+        const p = b.por_projeto.find(x => x.nome === nome);
+        if (!p) return;
+        b.por_colaborador.forEach(c => {
+          const est = b.total_horas > 0 ? Math.round(p.horas * (c.total/b.total_horas) * 100)/100 : 0;
+          if (est > 0) horasPorColab[c.nome] = (horasPorColab[c.nome]||0) + est;
+        });
+      });
+    });
+  }
+  Object.keys(horasPorColab).forEach(k => horasPorColab[k] = Math.round(horasPorColab[k]*100)/100);
+
   document.getElementById("modal-eyebrow").textContent = "Detalhes do Projeto";
-  abrirModalComDados(nome, total, horasPorMes, horasPorColab, "Mês");
+  abrirModalComDados(nome, total, horasPorMes, horasPorColab, "Mês", linhas);
 }
 
 // ── Modal por TIPO DE SERVIÇO ──
 function abrirModalTipo(tipoEnc) {
   const tipo = decodeURIComponent(tipoEnc);
   const horasPorMes = {}, horasPorColab = {};
+  const linhas = linhasDetalhe(proj => tipoServico(proj) === tipo);
+  const temDetalhe = linhas.length > 0;
   let total = 0;
   Object.keys(DADOS.dados).sort().forEach(ano => {
     Object.keys(DADOS.dados[ano]).sort().forEach(mes => {
@@ -347,22 +449,33 @@ function abrirModalTipo(tipoEnc) {
       const chave = `${MESES[mes]||mes}/${ano}`;
       horasPorMes[chave] = (horasPorMes[chave]||0) + horasMes;
       total += horasMes;
-      b.por_colaborador.forEach(c => {
-        const est = b.total_horas > 0 ? Math.round(horasMes * (c.total/b.total_horas) * 100)/100 : 0;
-        if (est > 0) horasPorColab[c.nome] = (horasPorColab[c.nome]||0) + est;
-      });
+      if (!temDetalhe) {
+        b.por_colaborador.forEach(c => {
+          const est = b.total_horas > 0 ? Math.round(horasMes * (c.total/b.total_horas) * 100)/100 : 0;
+          if (est > 0) horasPorColab[c.nome] = (horasPorColab[c.nome]||0) + est;
+        });
+      }
     });
   });
+  if (temDetalhe) linhas.forEach(l => horasPorColab[l.colaborador] = (horasPorColab[l.colaborador]||0) + l.horas);
+  Object.keys(horasPorColab).forEach(k => horasPorColab[k] = Math.round(horasPorColab[k]*100)/100);
+
   document.getElementById("modal-eyebrow").textContent = "Tipo de Serviço";
-  abrirModalComDados(tipo, total, horasPorMes, horasPorColab, "Mês");
+  abrirModalComDados(tipo, total, horasPorMes, horasPorColab, "Mês", linhas);
 }
 
-function abrirModalComDados(titulo, total, horasPorMes, horasPorColab, labelTabela) {
+function abrirModalComDados(titulo, total, horasPorMes, horasPorColab, labelTabela, linhas) {
   document.getElementById("modal-nome").textContent = titulo;
   document.getElementById("modal-total").textContent = `Total: ${total.toLocaleString("pt-BR")}h`;
 
+  linhasModal = linhas || [];
+  const temDet = linhasModal.length > 0;
+  document.getElementById("box-semanas").style.display = temDet ? "" : "none";
+  document.getElementById("bloco-detalhe").style.display = temDet ? "" : "none";
+
   if (chartMeses) { chartMeses.destroy(); chartMeses = null; }
   if (chartPizza) { chartPizza.destroy(); chartPizza = null; }
+  if (chartSemanas) { chartSemanas.destroy(); chartSemanas = null; }
 
   const labMeses = Object.keys(horasPorMes);
   const valMeses = Object.values(horasPorMes);
@@ -390,7 +503,88 @@ function abrirModalComDados(titulo, total, horasPorMes, horasPorColab, labelTabe
     tbl += `<div class="modal-table-row"><span>${m}</span><span>${h.toLocaleString("pt-BR")}h</span><span>${p}%</span></div>`;
   });
   document.getElementById("modal-table").innerHTML = tbl;
+
+  if (temDet) { renderSemanas(); renderTabelaDetalhe(); }
   document.getElementById("modal-overlay").classList.add("open");
+}
+
+// ── Horas por semana, empilhado por colaboradora ou por etapa ──
+function setDimSemana(d) {
+  dimSemana = d;
+  ["colaborador","etapa"].forEach(k =>
+    document.getElementById("tg-"+k).classList.toggle("active", k===d));
+  renderSemanas();
+}
+
+function semanasOrdenadas() {
+  const mapa = {};
+  linhasModal.forEach(l => mapa[l.semana] = l.semana_label);
+  return Object.keys(mapa).sort().map(k => ({ chave: k, label: mapa[k] }));
+}
+
+function renderSemanas() {
+  if (chartSemanas) { chartSemanas.destroy(); chartSemanas = null; }
+  const semanas = semanasOrdenadas();
+
+  // Séries ordenadas por total, para a legenda ficar previsível.
+  const totalPorSerie = {};
+  linhasModal.forEach(l => {
+    const s = l[dimSemana] || "—";
+    totalPorSerie[s] = (totalPorSerie[s]||0) + l.horas;
+  });
+  const series = Object.keys(totalPorSerie).sort((a,b) => totalPorSerie[b]-totalPorSerie[a]);
+
+  const datasets = series.map((s,i) => ({
+    label: s,
+    data: semanas.map(sem => {
+      const h = linhasModal
+        .filter(l => l.semana === sem.chave && (l[dimSemana]||"—") === s)
+        .reduce((acc,l) => acc + l.horas, 0);
+      return Math.round(h*100)/100;
+    }),
+    backgroundColor: CORES[i % CORES.length],
+    borderColor: "#2e2e2e",
+    borderWidth: 1,
+    borderRadius: 3,
+  }));
+
+  chartSemanas = new Chart(document.getElementById("chart-semanas"), {
+    type: "bar",
+    data: { labels: semanas.map(s => s.label), datasets },
+    options: {
+      responsive: true,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { position: "bottom", labels: { color: "rgba(255,255,255,0.7)", font:{size:11}, padding:12, boxWidth:12 } },
+        tooltip: {
+          callbacks: {
+            footer: items => "Total: " + items.reduce((s,i)=>s+i.parsed.y,0).toLocaleString("pt-BR") + "h",
+            label: i => `${i.dataset.label}: ${i.parsed.y.toLocaleString("pt-BR")}h`,
+          },
+          filter: i => i.parsed.y > 0,
+        },
+      },
+      scales: {
+        x: { stacked: true, ticks: { color: "rgba(255,255,255,0.5)", font:{size:10} }, grid: { color: "rgba(255,255,255,0.05)" } },
+        y: { stacked: true, beginAtZero: true, ticks: { color: "rgba(255,255,255,0.5)", font:{size:10} }, grid: { color: "rgba(255,255,255,0.05)" } },
+      },
+    },
+  });
+}
+
+function renderTabelaDetalhe() {
+  const semanas = semanasOrdenadas();
+  let h = `<div class="modal-table-head"><span>Semana</span><span>Colaboradora</span><span>Etapa</span><span>Horas</span></div>`;
+  semanas.forEach((sem, idx) => {
+    const grupo = linhasModal
+      .filter(l => l.semana === sem.chave)
+      .sort((a,b) => b.horas - a.horas || a.colaborador.localeCompare(b.colaborador));
+    grupo.forEach((l, i) => {
+      const cls = (i === 0 && idx > 0) ? " grupo-inicio" : "";
+      h += `<div class="modal-table-row${cls}"><span>${i===0 ? sem.label : ""}</span><span>${l.colaborador}</span><span>${l.etapa}</span><span>${l.horas.toLocaleString("pt-BR")}h</span></div>`;
+    });
+  });
+  document.getElementById("modal-table-detalhe").innerHTML = h;
 }
 
 function fecharModal(e) { if (e.target===document.getElementById("modal-overlay")) fecharModalBtn(); }
@@ -407,10 +601,10 @@ function showToast(msg) {
 
 function exportarExcel() {
   document.getElementById("dropdown").classList.remove("open");
-  const b=DADOS?.dados[anoSel]?.[mesSel];
+  const b=DADOS?blocoAtual():null;
   if(!b){showToast("Sem dados para exportar");return;}
   loadXLSX(()=>{
-    const wb=XLSX.utils.book_new(), mes=MESES[mesSel]||mesSel;
+    const wb=XLSX.utils.book_new();
     const tipos=agruparPorTipo(b.por_projeto);
     const ws0=XLSX.utils.aoa_to_sheet([["Tipo de Serviço","Horas"],...tipos.map(t=>[t.nome,t.horas]),[],["TOTAL",b.total_horas]]);
     ws0["!cols"]=[{wch:36},{wch:12}];
@@ -421,21 +615,21 @@ function exportarExcel() {
     const ws2=XLSX.utils.aoa_to_sheet([["Colaborador","Lançamentos","Faturável (h)","Não Faturável (h)","Total (h)"],...b.por_colaborador.map(c=>[c.nome,c.entradas,c.faturavel,c.nao_faturavel,c.total]),[],["TOTAL","",b.total_faturavel,b.total_nao_faturavel,b.total_horas]]);
     ws2["!cols"]=[{wch:28},{wch:14},{wch:16},{wch:18},{wch:12}];
     XLSX.utils.book_append_sheet(wb,ws2,"Colaboradores");
-    const ws3=XLSX.utils.aoa_to_sheet([["Workspace",DADOS.workspace],["Período",`${mes} / ${anoSel}`],["Gerado em",new Date().toLocaleString("pt-BR")],[],["KPI","Valor"],["Horas Totais",b.total_horas],["Horas Faturáveis",b.total_faturavel],["Não Faturáveis",b.total_nao_faturavel],["Taxa Faturável (%)",b.total_horas>0?Math.round((b.total_faturavel/b.total_horas)*100):0],["Projetos Ativos",b.por_projeto.length],["Tipos de Serviço",tipos.length],["Colaboradores",b.por_colaborador.length]]);
+    const ws3=XLSX.utils.aoa_to_sheet([["Workspace",DADOS.workspace],["Período",rotuloPeriodo()],["Gerado em",new Date().toLocaleString("pt-BR")],[],["KPI","Valor"],["Horas Totais",b.total_horas],["Horas Faturáveis",b.total_faturavel],["Não Faturáveis",b.total_nao_faturavel],["Taxa Faturável (%)",b.total_horas>0?Math.round((b.total_faturavel/b.total_horas)*100):0],["Projetos Ativos",b.por_projeto.length],["Tipos de Serviço",tipos.length],["Colaboradores",b.por_colaborador.length]]);
     ws3["!cols"]=[{wch:26},{wch:22}];
     XLSX.utils.book_append_sheet(wb,ws3,"Resumo");
-    XLSX.writeFile(wb,`O2Inc_Horas_${mes}_${anoSel}.xlsx`);
+    XLSX.writeFile(wb,`O2Inc_Horas_${nomeArquivoPeriodo()}.xlsx`);
     showToast("Excel exportado com sucesso!");
   });
 }
 
 function exportarCSV() {
   document.getElementById("dropdown").classList.remove("open");
-  const b=DADOS?.dados[anoSel]?.[mesSel];
+  const b=DADOS?blocoAtual():null;
   if(!b){showToast("Sem dados");return;}
   const linhas=["Colaborador,Lançamentos,Faturável (h),Não Faturável (h),Total (h)",...b.por_colaborador.map(c=>`"${c.nome}",${c.entradas},${c.faturavel},${c.nao_faturavel},${c.total}`)];
   const blob=new Blob([linhas.join("\n")],{type:"text/csv;charset=utf-8;"});
-  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=`O2Inc_Horas_${MESES[mesSel]||mesSel}_${anoSel}.csv`; a.click();
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=`O2Inc_Horas_${nomeArquivoPeriodo()}.csv`; a.click();
   showToast("CSV exportado!");
 }
 
