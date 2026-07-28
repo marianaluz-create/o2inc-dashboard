@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-28T21:12:40.642840",
+  "gerado_em": "2026-07-28T22:36:39.528195",
   "dados": {
     "2026": {
       "07": {
@@ -258,6 +258,1305 @@
           }
         ]
       }
+    }
+  },
+  "detalhe_projetos": {
+    "FromTherm — Valuation": {
+      "total": 46.19,
+      "linhas": [
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick off",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "6. Organização",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Modelagem Financeira",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Modelagem Financeira",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "oliveira",
+          "etapa": "Sem etapa",
+          "horas": 4.44
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Modelagem Financeira",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "oliveira",
+          "etapa": "Sem etapa",
+          "horas": 14.25
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Modelagem Financeira",
+          "horas": 12.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Apresentação para o Cliente",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "6. Organização",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "5. Apresentação para o Cliente",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Organização",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Asiana — Jornada Financeira": {
+      "total": 14.5,
+      "linhas": [
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "Sem etapa",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "mariana.luz",
+          "etapa": "Sem etapa",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "Sem etapa",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Apresentação Diagnóstico 360°",
+          "horas": 3.5
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "5. Apresentação Diagnóstico 360°",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "horas": 2.0
+        }
+      ]
+    },
+    "Obralar — Jornada Financeira": {
+      "total": 8.0,
+      "linhas": [
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Apresentação Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Imperador Burger — Jornada Financeira": {
+      "total": 12.5,
+      "linhas": [
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "Set Up",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "Set Up",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Sem cliente — Sem projeto": {
+      "total": 1.0,
+      "linhas": [
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Vitra empreendimentos — Diagnóstico Econômico Financeiro": {
+      "total": 4.75,
+      "linhas": [
+        {
+          "semana": "2026-04-13",
+          "semana_label": "13/04 – 17/04",
+          "ano": "2026",
+          "mes": "04",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-04-13",
+          "semana_label": "13/04 – 17/04",
+          "ano": "2026",
+          "mes": "04",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.25
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Modelcraft — Jornada Financeira": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        }
+      ]
+    },
+    "IDB Hospitais — Valuation": {
+      "total": 3.75,
+      "linhas": [
+        {
+          "semana": "2026-04-13",
+          "semana_label": "13/04 – 17/04",
+          "ano": "2026",
+          "mes": "04",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.25
+        }
+      ]
+    },
+    "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio": {
+      "total": 73.88,
+      "linhas": [
+        {
+          "semana": "2026-05-11",
+          "semana_label": "11/05 – 15/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Organização da Documentação",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 12.62
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Organização da Documentação",
+          "horas": 1.18
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "mariana.luz",
+          "etapa": "5. Organização do Trabalho",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 2.5
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Organização da Documentação",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Apresentação",
+          "horas": 8.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Organização da Documentação",
+          "horas": 5.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Apresentação",
+          "horas": 4.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 2.5
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 4.5
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 10.5
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 8.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 1.58
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 8.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Análises",
+          "horas": 2.0
+        }
+      ]
+    },
+    "Produtos Dalen — Jornada Financeira": {
+      "total": 2.8,
+      "linhas": [
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 0.55
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 0.75
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 0.5
+        }
+      ]
+    },
+    "Ediouro — Diagnóstico Econômico Financeiro": {
+      "total": 7.0,
+      "linhas": [
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 2.75
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.25
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Agrotop — Diagnóstico Econômico Financeiro": {
+      "total": 4.37,
+      "linhas": [
+        {
+          "semana": "2026-05-04",
+          "semana_label": "04/05 – 08/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimentos de documentação",
+          "horas": 0.87
+        }
+      ]
+    },
+    "Samba Decor — Plano de Contas": {
+      "total": 3.67,
+      "linhas": [
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 3.67
+        }
+      ]
+    },
+    "Fauhome — Diagnóstico Econômico Financeiro": {
+      "total": 4.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Manduplast — Diagnóstico Econômico Financeiro": {
+      "total": 1.0,
+      "linhas": [
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Interno Serviços Especiais — O2 - Gestão Interna": {
+      "total": 66.0,
+      "linhas": [
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Retrabalho / Correções",
+          "horas": 0.13
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 5.5
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Retrabalho / Correções",
+          "horas": 2.09
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 3.25
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 2.57
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.5
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 1.17
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-29",
+          "semana_label": "29/06 – 03/07",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 5.2
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Comercial",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 6.76
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 4.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.33
+        }
+      ]
+    },
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
+      "total": 1.5,
+      "linhas": [
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Tchau 44 — Diagnóstico Econômico Financeiro": {
+      "total": 2.5,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        }
+      ]
+    },
+    "DL Medicamentos — Jornada Financeira": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        }
+      ]
+    },
+    "AR3 Pro — Jornada Financeira": {
+      "total": 3.0,
+      "linhas": [
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 2.0
+        }
+      ]
     }
   }
 }
