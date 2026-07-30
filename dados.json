@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-30T12:47:18.133294",
+  "gerado_em": "2026-07-30T21:15:49.558825",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 127.15,
-        "total_faturavel": 127.15,
+        "total_horas": 134.65,
+        "total_faturavel": 134.65,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,15 +14,15 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 32.29
+            "horas": 34.29
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
-            "horas": 18.0
+            "horas": 20.0
           },
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 7.0
+            "horas": 10.0
           },
           {
             "nome": "Obralar — Jornada Financeira",
@@ -33,16 +33,16 @@
             "horas": 4.0
           },
           {
+            "nome": "DL Medicamentos — Jornada Financeira",
+            "horas": 4.0
+          },
+          {
             "nome": "Fauhome — Diagnóstico Econômico Financeiro",
             "horas": 4.0
           },
           {
             "nome": "Samba Decor — Plano de Contas",
             "horas": 3.67
-          },
-          {
-            "nome": "DL Medicamentos — Jornada Financeira",
-            "horas": 3.5
           },
           {
             "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
@@ -80,10 +80,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 85.46,
-            "faturavel": 85.46,
+            "total": 92.96,
+            "faturavel": 92.96,
             "nao_faturavel": 0.0,
-            "entradas": 62
+            "entradas": 67
           },
           {
             "nome": "mariana.luz",
@@ -393,7 +393,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 14.5,
+      "total": 17.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -484,6 +484,15 @@
           "colaborador": "raissa.daros",
           "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Trabalhos Internos",
+          "horas": 3.0
         }
       ]
     },
@@ -833,7 +842,7 @@
       ]
     },
     "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio": {
-      "total": 73.88,
+      "total": 75.88,
       "linhas": [
         {
           "semana": "2026-05-11",
@@ -987,6 +996,15 @@
           "colaborador": "raissa.daros",
           "etapa": "2. Análises",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Organização da Documentação",
+          "horas": 2.0
         }
       ]
     },
@@ -1122,77 +1140,8 @@
         }
       ]
     },
-    "Samba Decor — Plano de Contas": {
-      "total": 3.67,
-      "linhas": [
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 3.67
-        }
-      ]
-    },
-    "Fauhome — Diagnóstico Econômico Financeiro": {
-      "total": 4.0,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Manduplast — Diagnóstico Econômico Financeiro": {
-      "total": 1.0,
-      "linhas": [
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 66.0,
+      "total": 68.0,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1453,7 +1402,117 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 2.33
+          "horas": 4.33
+        }
+      ]
+    },
+    "DL Medicamentos — Jornada Financeira": {
+      "total": 4.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização",
+          "horas": 0.5
+        }
+      ]
+    },
+    "Samba Decor — Plano de Contas": {
+      "total": 3.67,
+      "linhas": [
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 3.67
+        }
+      ]
+    },
+    "Fauhome — Diagnóstico Econômico Financeiro": {
+      "total": 4.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Manduplast — Diagnóstico Econômico Financeiro": {
+      "total": 1.0,
+      "linhas": [
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
         }
       ]
     },
@@ -1499,38 +1558,6 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
-    "DL Medicamentos — Jornada Financeira": {
-      "total": 3.5,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kick Off",
-          "horas": 1.5
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
           "horas": 1.0
         }
       ]
