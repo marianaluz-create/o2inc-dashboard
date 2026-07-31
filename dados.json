@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-07-31T12:58:32.717610",
+  "gerado_em": "2026-07-31T21:11:29.119275",
   "dados": {
     "2026": {
       "07": {
-        "total_horas": 134.65,
-        "total_faturavel": 134.65,
+        "total_horas": 139.15,
+        "total_faturavel": 139.15,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -14,7 +14,7 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 34.29
+            "horas": 36.79
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -22,7 +22,7 @@
           },
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 10.0
+            "horas": 12.0
           },
           {
             "nome": "Obralar — Jornada Financeira",
@@ -80,10 +80,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 92.96,
-            "faturavel": 92.96,
+            "total": 97.46,
+            "faturavel": 97.46,
             "nao_faturavel": 0.0,
-            "entradas": 67
+            "entradas": 70
           },
           {
             "nome": "mariana.luz",
@@ -393,7 +393,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 17.5,
+      "total": 19.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -492,7 +492,7 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
-          "horas": 3.0
+          "horas": 5.0
         }
       ]
     },
@@ -1141,7 +1141,7 @@
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 68.0,
+      "total": 70.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1402,7 +1402,16 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 4.33
+          "horas": 5.33
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 1.5
         }
       ]
     },
