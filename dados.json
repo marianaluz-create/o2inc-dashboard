@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-03T13:42:48.458889",
+  "gerado_em": "2026-08-03T21:09:22.082762",
   "dados": {
     "2026": {
       "07": {
@@ -255,6 +255,30 @@
             "faturavel": 2.0,
             "nao_faturavel": 0.0,
             "entradas": 2
+          }
+        ]
+      },
+      "08": {
+        "total_horas": 5.0,
+        "total_faturavel": 5.0,
+        "total_nao_faturavel": 0.0,
+        "por_projeto": [
+          {
+            "nome": "Fight Analytics — Plano de Contas",
+            "horas": 3.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 2.0
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "raissa.daros",
+            "total": 5.0,
+            "faturavel": 5.0,
+            "nao_faturavel": 0.0,
+            "entradas": 3
           }
         ]
       }
@@ -1140,8 +1164,31 @@
         }
       ]
     },
+    "Fight Analytics — Plano de Contas": {
+      "total": 3.0,
+      "linhas": [
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Envio da Lista de Documentos",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 70.5,
+      "total": 72.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1412,6 +1459,15 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Reuniões Internas",
           "horas": 1.5
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
         }
       ]
     },
