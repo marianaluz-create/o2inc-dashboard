@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-04T13:04:28.689357",
+  "gerado_em": "2026-08-04T21:16:13.593847",
   "dados": {
     "2026": {
       "07": {
@@ -259,26 +259,34 @@
         ]
       },
       "08": {
-        "total_horas": 5.0,
-        "total_faturavel": 5.0,
+        "total_horas": 10.0,
+        "total_faturavel": 10.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 3.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 3.0
+          },
           {
             "nome": "Fight Analytics — Plano de Contas",
             "horas": 3.0
           },
           {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 2.0
+            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
+            "horas": 1.0
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 5.0,
-            "faturavel": 5.0,
+            "total": 10.0,
+            "faturavel": 10.0,
             "nao_faturavel": 0.0,
-            "entradas": 3
+            "entradas": 6
           }
         ]
       }
@@ -417,7 +425,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 19.5,
+      "total": 22.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -517,6 +525,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
           "horas": 5.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Trabalhos Internos",
+          "horas": 3.0
         }
       ]
     },
@@ -1164,17 +1181,26 @@
         }
       ]
     },
-    "Fight Analytics — Plano de Contas": {
-      "total": 3.0,
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
+      "total": 2.5,
       "linhas": [
         {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
           "ano": "2026",
-          "mes": "08",
+          "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "2. Envio da Lista de Documentos",
-          "horas": 2.0
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
         },
         {
           "semana": "2026-08-03",
@@ -1182,13 +1208,13 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         }
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 72.5,
+      "total": 73.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1467,7 +1493,30 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
+          "horas": 3.0
+        }
+      ]
+    },
+    "Fight Analytics — Plano de Contas": {
+      "total": 3.0,
+      "linhas": [
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Envio da Lista de Documentos",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
         }
       ]
     },
@@ -1570,29 +1619,6 @@
     "Manduplast — Diagnóstico Econômico Financeiro": {
       "total": 1.0,
       "linhas": [
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Stillus Home — Diagnóstico Econômico Financeiro": {
-      "total": 1.5,
-      "linhas": [
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 0.5
-        },
         {
           "semana": "2026-07-27",
           "semana_label": "27/07 – 31/07",
