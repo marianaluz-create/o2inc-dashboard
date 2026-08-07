@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-07T11:49:01.126477",
+  "gerado_em": "2026-08-07T20:46:51.350784",
   "dados": {
     "2026": {
       "07": {
@@ -259,21 +259,37 @@
         ]
       },
       "08": {
-        "total_horas": 10.0,
-        "total_faturavel": 10.0,
+        "total_horas": 18.0,
+        "total_faturavel": 18.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 6.0
+          },
           {
             "nome": "Asiana — Jornada Financeira",
             "horas": 3.0
           },
           {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "nome": "Fight Analytics — Plano de Contas",
             "horas": 3.0
           },
           {
-            "nome": "Fight Analytics — Plano de Contas",
-            "horas": 3.0
+            "nome": "Modelcraft — Jornada Financeira",
+            "horas": 2.0
+          },
+          {
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
+            "horas": 1.0
+          },
+          {
+            "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
+            "horas": 1.0
+          },
+          {
+            "nome": "Manduplast — Diagnóstico Econômico Financeiro",
+            "horas": 1.0
           },
           {
             "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
@@ -283,10 +299,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 10.0,
-            "faturavel": 10.0,
+            "total": 18.0,
+            "faturavel": 18.0,
             "nao_faturavel": 0.0,
-            "entradas": 6
+            "entradas": 14
           }
         ]
       }
@@ -801,7 +817,7 @@
       ]
     },
     "Modelcraft — Jornada Financeira": {
-      "total": 3.5,
+      "total": 5.5,
       "linhas": [
         {
           "semana": "2026-06-22",
@@ -838,6 +854,15 @@
           "colaborador": "raissa.daros",
           "etapa": "3. Apresentação do Estágio Estratégico",
           "horas": 1.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "horas": 2.0
         }
       ]
     },
@@ -883,7 +908,7 @@
       ]
     },
     "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio": {
-      "total": 75.88,
+      "total": 76.88,
       "linhas": [
         {
           "semana": "2026-05-11",
@@ -1046,6 +1071,15 @@
           "colaborador": "raissa.daros",
           "etapa": "1. Organização da Documentação",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Organização do Trabalho",
+          "horas": 1.0
         }
       ]
     },
@@ -1150,7 +1184,7 @@
       ]
     },
     "Agrotop — Diagnóstico Econômico Financeiro": {
-      "total": 4.37,
+      "total": 5.37,
       "linhas": [
         {
           "semana": "2026-05-04",
@@ -1178,29 +1212,6 @@
           "colaborador": "raissa.daros",
           "etapa": "2. Recebimentos de documentação",
           "horas": 0.87
-        }
-      ]
-    },
-    "Stillus Home — Diagnóstico Econômico Financeiro": {
-      "total": 2.5,
-      "linhas": [
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 0.5
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
         },
         {
           "semana": "2026-08-03",
@@ -1208,13 +1219,13 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "4. Apresentação do Diagnóstico",
           "horas": 1.0
         }
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 73.5,
+      "total": 76.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1493,7 +1504,62 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 3.0
+          "horas": 6.0
+        }
+      ]
+    },
+    "Manduplast — Diagnóstico Econômico Financeiro": {
+      "total": 2.0,
+      "linhas": [
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
+      "total": 2.5,
+      "linhas": [
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
         }
       ]
     },
@@ -1605,20 +1671,6 @@
           "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Manduplast — Diagnóstico Econômico Financeiro": {
-      "total": 1.0,
-      "linhas": [
         {
           "semana": "2026-07-27",
           "semana_label": "27/07 – 31/07",
