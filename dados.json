@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-10T11:50:16.230226",
+  "gerado_em": "2026-08-10T20:49:13.764670",
   "dados": {
     "2026": {
       "07": {
@@ -259,13 +259,13 @@
         ]
       },
       "08": {
-        "total_horas": 18.0,
-        "total_faturavel": 18.0,
+        "total_horas": 21.0,
+        "total_faturavel": 21.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 6.0
+            "horas": 8.0
           },
           {
             "nome": "Asiana — Jornada Financeira",
@@ -276,12 +276,12 @@
             "horas": 3.0
           },
           {
-            "nome": "Modelcraft — Jornada Financeira",
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
             "horas": 2.0
           },
           {
-            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
-            "horas": 1.0
+            "nome": "Modelcraft — Jornada Financeira",
+            "horas": 2.0
           },
           {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
@@ -299,10 +299,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 18.0,
-            "faturavel": 18.0,
+            "total": 21.0,
+            "faturavel": 21.0,
             "nao_faturavel": 0.0,
-            "entradas": 14
+            "entradas": 16
           }
         ]
       }
@@ -1184,7 +1184,7 @@
       ]
     },
     "Agrotop — Diagnóstico Econômico Financeiro": {
-      "total": 5.37,
+      "total": 6.37,
       "linhas": [
         {
           "semana": "2026-05-04",
@@ -1221,11 +1221,20 @@
           "colaborador": "raissa.daros",
           "etapa": "4. Apresentação do Diagnóstico",
           "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
         }
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 76.5,
+      "total": 78.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1505,6 +1514,15 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
           "horas": 6.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
         }
       ]
     },
