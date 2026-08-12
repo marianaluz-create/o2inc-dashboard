@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-12T11:50:23.268681",
+  "gerado_em": "2026-08-12T20:51:24.880857",
   "dados": {
     "2026": {
       "07": {
@@ -259,21 +259,25 @@
         ]
       },
       "08": {
-        "total_horas": 21.0,
-        "total_faturavel": 21.0,
+        "total_horas": 33.0,
+        "total_faturavel": 33.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 10.0
+          },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
             "horas": 8.0
           },
           {
-            "nome": "Asiana — Jornada Financeira",
-            "horas": 3.0
+            "nome": "Fight Analytics — Plano de Contas",
+            "horas": 6.0
           },
           {
-            "nome": "Fight Analytics — Plano de Contas",
-            "horas": 3.0
+            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
+            "horas": 2.0
           },
           {
             "nome": "Agrotop — Diagnóstico Econômico Financeiro",
@@ -284,25 +288,25 @@
             "horas": 2.0
           },
           {
+            "nome": "Imperador Burger — Jornada Financeira",
+            "horas": 1.0
+          },
+          {
             "nome": "ESPÓLIO DE MÁRCIO LOUZADA CARPENA — Espólio",
             "horas": 1.0
           },
           {
             "nome": "Manduplast — Diagnóstico Econômico Financeiro",
             "horas": 1.0
-          },
-          {
-            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
-            "horas": 1.0
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 21.0,
-            "faturavel": 21.0,
+            "total": 33.0,
+            "faturavel": 33.0,
             "nao_faturavel": 0.0,
-            "entradas": 16
+            "entradas": 21
           }
         ]
       }
@@ -441,7 +445,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 22.5,
+      "total": 29.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -550,6 +554,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
           "horas": 3.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Trabalhos Internos",
+          "horas": 7.0
         }
       ]
     },
@@ -631,7 +644,7 @@
       ]
     },
     "Imperador Burger — Jornada Financeira": {
-      "total": 12.5,
+      "total": 13.5,
       "linhas": [
         {
           "semana": "2026-06-01",
@@ -748,6 +761,15 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "Set Up",
           "horas": 1.0
         }
       ]
@@ -1233,6 +1255,79 @@
         }
       ]
     },
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Fight Analytics — Plano de Contas": {
+      "total": 6.0,
+      "linhas": [
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Envio da Lista de Documentos",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 3.0
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
       "total": 78.5,
       "linhas": [
@@ -1545,61 +1640,6 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Stillus Home — Diagnóstico Econômico Financeiro": {
-      "total": 2.5,
-      "linhas": [
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 0.5
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Fight Analytics — Plano de Contas": {
-      "total": 3.0,
-      "linhas": [
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Envio da Lista de Documentos",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
           "horas": 1.0
         }
       ]
