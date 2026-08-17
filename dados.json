@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-17T11:29:17.773952",
+  "gerado_em": "2026-08-17T20:31:59.417955",
   "dados": {
     "2026": {
       "07": {
@@ -259,17 +259,17 @@
         ]
       },
       "08": {
-        "total_horas": 37.0,
-        "total_faturavel": 37.0,
+        "total_horas": 43.5,
+        "total_faturavel": 43.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 12.0
+            "horas": 14.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 9.0
+            "horas": 11.0
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
@@ -277,6 +277,10 @@
           },
           {
             "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
+            "horas": 2.5
+          },
+          {
+            "nome": "Imperador Burger — Jornada Financeira",
             "horas": 2.0
           },
           {
@@ -288,11 +292,11 @@
             "horas": 2.0
           },
           {
-            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
+            "nome": "IDB Hospitais — Valuation",
             "horas": 1.0
           },
           {
-            "nome": "Imperador Burger — Jornada Financeira",
+            "nome": "Ediouro — Diagnóstico Econômico Financeiro",
             "horas": 1.0
           },
           {
@@ -307,10 +311,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 37.0,
-            "faturavel": 37.0,
+            "total": 43.5,
+            "faturavel": 43.5,
             "nao_faturavel": 0.0,
-            "entradas": 24
+            "entradas": 30
           }
         ]
       }
@@ -449,7 +453,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 31.5,
+      "total": 33.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -567,6 +571,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
           "horas": 9.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Trabalhos Internos",
+          "horas": 2.0
         }
       ]
     },
@@ -648,7 +661,7 @@
       ]
     },
     "Imperador Burger — Jornada Financeira": {
-      "total": 13.5,
+      "total": 14.5,
       "linhas": [
         {
           "semana": "2026-06-01",
@@ -774,6 +787,15 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "Set Up",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
         }
       ]
@@ -893,7 +915,7 @@
       ]
     },
     "IDB Hospitais — Valuation": {
-      "total": 3.75,
+      "total": 4.75,
       "linhas": [
         {
           "semana": "2026-04-13",
@@ -930,6 +952,15 @@
           "colaborador": "mariana.luz",
           "etapa": "2. Recebimentos de documentação",
           "horas": 0.25
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
         }
       ]
     },
@@ -1268,8 +1299,58 @@
         }
       ]
     },
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
+      "total": 4.0,
+      "linhas": [
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 0.5
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 79.5,
+      "total": 81.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1558,47 +1639,15 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
           "horas": 3.0
-        }
-      ]
-    },
-    "Stillus Home — Diagnóstico Econômico Financeiro": {
-      "total": 3.5,
-      "linhas": [
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 0.5
         },
         {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-10",
-          "semana_label": "10/08 – 14/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Recebimento dos Documentos",
-          "horas": 1.0
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
         }
       ]
     },
