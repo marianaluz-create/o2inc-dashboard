@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-19T11:28:11.779242",
+  "gerado_em": "2026-08-19T20:33:15.533928",
   "dados": {
     "2026": {
       "07": {
@@ -259,8 +259,8 @@
         ]
       },
       "08": {
-        "total_horas": 49.5,
-        "total_faturavel": 49.5,
+        "total_horas": 51.5,
+        "total_faturavel": 51.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -269,11 +269,11 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 12.0
+            "horas": 13.0
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
-            "horas": 9.0
+            "horas": 10.0
           },
           {
             "nome": "Modelcraft — Jornada Financeira",
@@ -311,10 +311,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 49.5,
-            "faturavel": 49.5,
+            "total": 51.5,
+            "faturavel": 51.5,
             "nao_faturavel": 0.0,
-            "entradas": 34
+            "entradas": 36
           }
         ]
       }
@@ -1309,7 +1309,7 @@
       ]
     },
     "Fight Analytics — Plano de Contas": {
-      "total": 9.0,
+      "total": 10.0,
       "linhas": [
         {
           "semana": "2026-08-03",
@@ -1345,12 +1345,12 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "4. Validação do Plano de Contas",
-          "horas": 3.0
+          "horas": 4.0
         }
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 82.5,
+      "total": 83.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1647,7 +1647,7 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 3.0
+          "horas": 4.0
         }
       ]
     },
