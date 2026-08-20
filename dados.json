@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-20T11:29:30.782248",
+  "gerado_em": "2026-08-20T20:33:24.578961",
   "dados": {
     "2026": {
       "07": {
@@ -259,17 +259,17 @@
         ]
       },
       "08": {
-        "total_horas": 51.5,
-        "total_faturavel": 51.5,
+        "total_horas": 55.5,
+        "total_faturavel": 55.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 15.0
+            "horas": 18.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 13.0
+            "horas": 14.0
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
@@ -311,10 +311,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 51.5,
-            "faturavel": 51.5,
+            "total": 55.5,
+            "faturavel": 55.5,
             "nao_faturavel": 0.0,
-            "entradas": 36
+            "entradas": 38
           }
         ]
       }
@@ -453,7 +453,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 34.5,
+      "total": 37.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -579,7 +579,7 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
-          "horas": 3.0
+          "horas": 6.0
         }
       ]
     },
@@ -1308,49 +1308,8 @@
         }
       ]
     },
-    "Fight Analytics — Plano de Contas": {
-      "total": 10.0,
-      "linhas": [
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Envio da Lista de Documentos",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-10",
-          "semana_label": "10/08 – 14/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Diagnóstico e Dúvidas",
-          "horas": 3.0
-        },
-        {
-          "semana": "2026-08-17",
-          "semana_label": "17/08 – 21/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Validação do Plano de Contas",
-          "horas": 4.0
-        }
-      ]
-    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 83.5,
+      "total": 84.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1647,6 +1606,47 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
+          "horas": 5.0
+        }
+      ]
+    },
+    "Fight Analytics — Plano de Contas": {
+      "total": 10.0,
+      "linhas": [
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Envio da Lista de Documentos",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Validação do Plano de Contas",
           "horas": 4.0
         }
       ]
