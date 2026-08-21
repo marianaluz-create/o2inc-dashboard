@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-21T11:29:40.878469",
+  "gerado_em": "2026-08-21T20:30:33.771087",
   "dados": {
     "2026": {
       "07": {
@@ -259,21 +259,25 @@
         ]
       },
       "08": {
-        "total_horas": 55.5,
-        "total_faturavel": 55.5,
+        "total_horas": 62.5,
+        "total_faturavel": 62.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 18.0
+            "horas": 20.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 14.0
+            "horas": 18.0
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
             "horas": 10.0
+          },
+          {
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
+            "horas": 3.0
           },
           {
             "nome": "Modelcraft — Jornada Financeira",
@@ -285,10 +289,6 @@
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
-            "horas": 2.0
-          },
-          {
-            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
             "horas": 2.0
           },
           {
@@ -311,10 +311,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 55.5,
-            "faturavel": 55.5,
+            "total": 62.5,
+            "faturavel": 62.5,
             "nao_faturavel": 0.0,
-            "entradas": 38
+            "entradas": 42
           }
         ]
       }
@@ -453,7 +453,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 37.5,
+      "total": 39.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -579,7 +579,7 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
-          "horas": 6.0
+          "horas": 8.0
         }
       ]
     },
@@ -1259,7 +1259,7 @@
       ]
     },
     "Agrotop — Diagnóstico Econômico Financeiro": {
-      "total": 6.37,
+      "total": 7.37,
       "linhas": [
         {
           "semana": "2026-05-04",
@@ -1305,11 +1305,20 @@
           "colaborador": "raissa.daros",
           "etapa": "4. Apresentação do Diagnóstico",
           "horas": 1.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Modelagem Financeira",
+          "horas": 1.0
         }
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 84.5,
+      "total": 88.5,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1606,7 +1615,16 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 5.0
+          "horas": 6.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 3.0
         }
       ]
     },
