@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-24T11:31:29.958071",
+  "gerado_em": "2026-08-24T20:35:18.910383",
   "dados": {
     "2026": {
       "07": {
@@ -259,8 +259,8 @@
         ]
       },
       "08": {
-        "total_horas": 62.5,
-        "total_faturavel": 62.5,
+        "total_horas": 64.45,
+        "total_faturavel": 64.45,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -269,7 +269,7 @@
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 18.0
+            "horas": 19.95
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
@@ -311,10 +311,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 62.5,
-            "faturavel": 62.5,
+            "total": 64.45,
+            "faturavel": 64.45,
             "nao_faturavel": 0.0,
-            "entradas": 42
+            "entradas": 43
           }
         ]
       }
@@ -1318,7 +1318,7 @@
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 88.5,
+      "total": 90.45,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1625,6 +1625,15 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Reuniões Internas",
           "horas": 3.0
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 1.95
         }
       ]
     },
