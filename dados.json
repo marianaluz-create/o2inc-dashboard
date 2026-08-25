@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-25T11:31:09.641106",
+  "gerado_em": "2026-08-25T20:34:00.352675",
   "dados": {
     "2026": {
       "07": {
@@ -45,7 +45,7 @@
             "horas": 3.67
           },
           {
-            "nome": "Tchau 44 — Diagnóstico Econômico Financeiro",
+            "nome": "Tchau 33 — Diagnóstico Econômico Financeiro",
             "horas": 2.5
           },
           {
@@ -259,17 +259,17 @@
         ]
       },
       "08": {
-        "total_horas": 64.45,
-        "total_faturavel": 64.45,
+        "total_horas": 71.73,
+        "total_faturavel": 71.73,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 20.0
+            "horas": 25.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 19.95
+            "horas": 21.23
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
@@ -292,6 +292,10 @@
             "horas": 2.0
           },
           {
+            "nome": "Tchau 33 — Diagnóstico Econômico Financeiro",
+            "horas": 1.0
+          },
+          {
             "nome": "IDB Hospitais — Valuation",
             "horas": 1.0
           },
@@ -311,10 +315,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 64.45,
-            "faturavel": 64.45,
+            "total": 71.73,
+            "faturavel": 71.73,
             "nao_faturavel": 0.0,
-            "entradas": 43
+            "entradas": 47
           }
         ]
       }
@@ -453,7 +457,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 39.5,
+      "total": 44.5,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -580,6 +584,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
           "horas": 8.0
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Trabalhos Internos",
+          "horas": 5.0
         }
       ]
     },
@@ -1317,8 +1330,40 @@
         }
       ]
     },
+    "Tchau 33 — Diagnóstico Econômico Financeiro": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimento da documentação",
+          "horas": 1.0
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 90.45,
+      "total": 91.73,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1633,7 +1678,7 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 1.95
+          "horas": 3.23
         }
       ]
     },
@@ -1843,29 +1888,6 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Tchau 44 — Diagnóstico Econômico Financeiro": {
-      "total": 2.5,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.5
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         }
       ]
