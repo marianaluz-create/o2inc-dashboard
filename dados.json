@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-26T22:56:46.898886",
+  "gerado_em": "2026-08-27T20:56:09.494964",
   "dados": {
     "2026": {
       "07": {
@@ -259,8 +259,8 @@
         ]
       },
       "08": {
-        "total_horas": 71.73,
-        "total_faturavel": 71.73,
+        "total_horas": 100.73,
+        "total_faturavel": 100.73,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -268,8 +268,12 @@
             "horas": 25.0
           },
           {
+            "nome": "Imperador Burger — Jornada Financeira",
+            "horas": 25.0
+          },
+          {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 21.23
+            "horas": 24.23
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
@@ -288,8 +292,12 @@
             "horas": 2.5
           },
           {
-            "nome": "Imperador Burger — Jornada Financeira",
+            "nome": "Lippert Empreendimentos — Jornada Financeira",
             "horas": 2.0
+          },
+          {
+            "nome": "Spinta Equipamentos — Jornada Financeira",
+            "horas": 1.0
           },
           {
             "nome": "Tchau 33 — Diagnóstico Econômico Financeiro",
@@ -315,10 +323,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 71.73,
-            "faturavel": 71.73,
+            "total": 100.73,
+            "faturavel": 100.73,
             "nao_faturavel": 0.0,
-            "entradas": 47
+            "entradas": 54
           }
         ]
       }
@@ -674,7 +682,7 @@
       ]
     },
     "Imperador Burger — Jornada Financeira": {
-      "total": 14.5,
+      "total": 37.5,
       "linhas": [
         {
           "semana": "2026-06-01",
@@ -810,6 +818,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Apresentação Diagnóstico 360°",
+          "horas": 23.0
         }
       ]
     },
@@ -1330,40 +1347,36 @@
         }
       ]
     },
-    "Tchau 33 — Diagnóstico Econômico Financeiro": {
-      "total": 3.5,
+    "Spinta Equipamentos — Jornada Financeira": {
+      "total": 1.0,
       "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.5
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        },
         {
           "semana": "2026-08-24",
           "semana_label": "24/08 – 28/08",
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimento da documentação",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         }
       ]
     },
+    "Lippert Empreendimentos — Jornada Financeira": {
+      "total": 2.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 91.73,
+      "total": 94.73,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1678,7 +1691,48 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 3.23
+          "horas": 4.23
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
+        }
+      ]
+    },
+    "Tchau 33 — Diagnóstico Econômico Financeiro": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Recebimento da documentação",
+          "horas": 1.0
         }
       ]
     },
