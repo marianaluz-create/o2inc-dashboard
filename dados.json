@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-08-28T21:19:56.085924",
+  "gerado_em": "2026-08-31T17:56:48.655502",
   "dados": {
     "2026": {
       "07": {
@@ -259,21 +259,21 @@
         ]
       },
       "08": {
-        "total_horas": 100.73,
-        "total_faturavel": 100.73,
+        "total_horas": 104.79,
+        "total_faturavel": 104.79,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Asiana — Jornada Financeira",
-            "horas": 25.0
+            "horas": 28.06
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 25.23
           },
           {
             "nome": "Imperador Burger — Jornada Financeira",
             "horas": 25.0
-          },
-          {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 24.23
           },
           {
             "nome": "Fight Analytics — Plano de Contas",
@@ -323,10 +323,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 100.73,
-            "faturavel": 100.73,
+            "total": 104.79,
+            "faturavel": 104.79,
             "nao_faturavel": 0.0,
-            "entradas": 54
+            "entradas": 56
           }
         ]
       }
@@ -465,7 +465,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 44.5,
+      "total": 47.56,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -601,6 +601,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
           "horas": 5.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Reunião de acompanhamento das entregas",
+          "horas": 3.06
         }
       ]
     },
@@ -1347,36 +1356,8 @@
         }
       ]
     },
-    "Spinta Equipamentos — Jornada Financeira": {
-      "total": 1.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Lippert Empreendimentos — Jornada Financeira": {
-      "total": 2.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 2.0
-        }
-      ]
-    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 94.73,
+      "total": 95.73,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1700,6 +1681,43 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Spinta Equipamentos — Jornada Financeira": {
+      "total": 1.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Lippert Empreendimentos — Jornada Financeira": {
+      "total": 2.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
           "horas": 2.0
         }
       ]
