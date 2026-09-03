@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-03T14:55:04.681053",
+  "gerado_em": "2026-09-03T22:26:10.296076",
   "dados": {
     "2026": {
       "07": {
@@ -259,13 +259,21 @@
         ]
       },
       "09": {
-        "total_horas": 6.0,
-        "total_faturavel": 6.0,
+        "total_horas": 10.0,
+        "total_faturavel": 10.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
+            "nome": "Agrotop — Diagnóstico Econômico Financeiro",
+            "horas": 3.0
+          },
+          {
             "nome": "Fight Analytics — Plano de Contas",
             "horas": 2.0
+          },
+          {
+            "nome": "Fauhome — Diagnóstico Econômico Financeiro",
+            "horas": 1.0
           },
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
@@ -287,10 +295,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 6.0,
-            "faturavel": 6.0,
+            "total": 10.0,
+            "faturavel": 10.0,
             "nao_faturavel": 0.0,
-            "entradas": 6
+            "entradas": 9
           }
         ]
       },
@@ -1334,7 +1342,7 @@
       ]
     },
     "Agrotop — Diagnóstico Econômico Financeiro": {
-      "total": 7.37,
+      "total": 10.37,
       "linhas": [
         {
           "semana": "2026-05-04",
@@ -1388,6 +1396,65 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "5. Modelagem Financeira",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Modelagem Financeira",
+          "horas": 3.0
+        }
+      ]
+    },
+    "Fauhome — Diagnóstico Econômico Financeiro": {
+      "total": 5.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         }
       ]
@@ -2024,47 +2091,6 @@
           "colaborador": "raissa.daros",
           "etapa": "1. Kickoff",
           "horas": 3.67
-        }
-      ]
-    },
-    "Fauhome — Diagnóstico Econômico Financeiro": {
-      "total": 4.0,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
         }
       ]
     }
