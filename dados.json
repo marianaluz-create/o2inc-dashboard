@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-02T22:28:49.155482",
+  "gerado_em": "2026-09-03T14:55:04.681053",
   "dados": {
     "2026": {
       "07": {
@@ -259,13 +259,17 @@
         ]
       },
       "09": {
-        "total_horas": 5.0,
-        "total_faturavel": 5.0,
+        "total_horas": 6.0,
+        "total_faturavel": 6.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Fight Analytics — Plano de Contas",
             "horas": 2.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 1.0
           },
           {
             "nome": "AR3 Pro — Jornada Financeira",
@@ -283,10 +287,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 5.0,
-            "faturavel": 5.0,
+            "total": 6.0,
+            "faturavel": 6.0,
             "nao_faturavel": 0.0,
-            "entradas": 5
+            "entradas": 6
           }
         ]
       },
@@ -1388,136 +1392,8 @@
         }
       ]
     },
-    "AR3 Pro — Jornada Financeira": {
-      "total": 4.0,
-      "linhas": [
-        {
-          "semana": "2026-06-15",
-          "semana_label": "15/06 – 19/06",
-          "ano": "2026",
-          "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Fight Analytics — Plano de Contas": {
-      "total": 12.0,
-      "linhas": [
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Envio da Lista de Documentos",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-10",
-          "semana_label": "10/08 – 14/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Diagnóstico e Dúvidas",
-          "horas": 3.0
-        },
-        {
-          "semana": "2026-08-17",
-          "semana_label": "17/08 – 21/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Validação do Plano de Contas",
-          "horas": 4.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "6. Treinamento do Time Interno",
-          "horas": 2.0
-        }
-      ]
-    },
-    "Spinta Equipamentos — Jornada Financeira": {
-      "total": 2.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Lippert Empreendimentos — Jornada Financeira": {
-      "total": 3.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 95.73,
+      "total": 96.73,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1847,9 +1723,146 @@
           "semana": "2026-08-31",
           "semana_label": "31/08 – 04/09",
           "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
+          "horas": 1.0
+        }
+      ]
+    },
+    "AR3 Pro — Jornada Financeira": {
+      "total": 4.0,
+      "linhas": [
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "5. Apresentação Diagnóstico 360°",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Fight Analytics — Plano de Contas": {
+      "total": 12.0,
+      "linhas": [
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Envio da Lista de Documentos",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Validação do Plano de Contas",
+          "horas": 4.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Treinamento do Time Interno",
+          "horas": 2.0
+        }
+      ]
+    },
+    "Spinta Equipamentos — Jornada Financeira": {
+      "total": 2.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Lippert Empreendimentos — Jornada Financeira": {
+      "total": 3.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         }
       ]
