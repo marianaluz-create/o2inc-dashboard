@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-04T14:52:00.189270",
+  "gerado_em": "2026-09-04T22:14:59.524164",
   "dados": {
     "2026": {
       "07": {
@@ -259,20 +259,20 @@
         ]
       },
       "09": {
-        "total_horas": 13.0,
-        "total_faturavel": 13.0,
+        "total_horas": 15.5,
+        "total_faturavel": 15.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 4.5
+          },
           {
             "nome": "Agrotop — Diagnóstico Econômico Financeiro",
             "horas": 3.0
           },
           {
             "nome": "Spinta Equipamentos — Jornada Financeira",
-            "horas": 2.0
-          },
-          {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
             "horas": 2.0
           },
           {
@@ -299,10 +299,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 13.0,
-            "faturavel": 13.0,
+            "total": 15.5,
+            "faturavel": 15.5,
             "nao_faturavel": 0.0,
-            "entradas": 12
+            "entradas": 14
           }
         ]
       },
@@ -1413,90 +1413,8 @@
         }
       ]
     },
-    "Stillus Home — Diagnóstico Econômico Financeiro": {
-      "total": 5.0,
-      "linhas": [
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 0.5
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-10",
-          "semana_label": "10/08 – 14/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Recebimento dos Documentos",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-17",
-          "semana_label": "17/08 – 21/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Recebimento dos Documentos",
-          "horas": 0.5
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Spinta Equipamentos — Jornada Financeira": {
-      "total": 3.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 2.0
-        }
-      ]
-    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 97.73,
+      "total": 100.23,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1828,6 +1746,15 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.5
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
           "horas": 2.0
         },
@@ -1839,6 +1766,88 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
           "horas": 1.0
+        }
+      ]
+    },
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
+      "total": 5.0,
+      "linhas": [
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico 360°",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Spinta Equipamentos — Jornada Financeira": {
+      "total": 3.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
         }
       ]
     },
