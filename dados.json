@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-03T22:26:10.296076",
+  "gerado_em": "2026-09-04T14:52:00.189270",
   "dados": {
     "2026": {
       "07": {
@@ -259,8 +259,8 @@
         ]
       },
       "09": {
-        "total_horas": 10.0,
-        "total_faturavel": 10.0,
+        "total_horas": 13.0,
+        "total_faturavel": 13.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -268,23 +268,27 @@
             "horas": 3.0
           },
           {
+            "nome": "Spinta Equipamentos — Jornada Financeira",
+            "horas": 2.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 2.0
+          },
+          {
             "nome": "Fight Analytics — Plano de Contas",
             "horas": 2.0
+          },
+          {
+            "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
+            "horas": 1.0
           },
           {
             "nome": "Fauhome — Diagnóstico Econômico Financeiro",
             "horas": 1.0
           },
           {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 1.0
-          },
-          {
             "nome": "AR3 Pro — Jornada Financeira",
-            "horas": 1.0
-          },
-          {
-            "nome": "Spinta Equipamentos — Jornada Financeira",
             "horas": 1.0
           },
           {
@@ -295,10 +299,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 10.0,
-            "faturavel": 10.0,
+            "total": 13.0,
+            "faturavel": 13.0,
             "nao_faturavel": 0.0,
-            "entradas": 9
+            "entradas": 12
           }
         ]
       },
@@ -1409,35 +1413,17 @@
         }
       ]
     },
-    "Fauhome — Diagnóstico Econômico Financeiro": {
+    "Stillus Home — Diagnóstico Econômico Financeiro": {
       "total": 5.0,
       "linhas": [
         {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
+          "horas": 0.5
         },
         {
           "semana": "2026-07-27",
@@ -1449,18 +1435,68 @@
           "horas": 1.0
         },
         {
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Recebimento dos Documentos",
+          "horas": 0.5
+        },
+        {
           "semana": "2026-08-31",
           "semana_label": "31/08 – 04/09",
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
+          "etapa": "4. Apresentação do Diagnóstico 360°",
           "horas": 1.0
         }
       ]
     },
+    "Spinta Equipamentos — Jornada Financeira": {
+      "total": 3.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 96.73,
+      "total": 97.73,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1793,7 +1829,7 @@
           "mes": "09",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 1.0
+          "horas": 2.0
         },
         {
           "semana": "2026-08-31",
@@ -1802,6 +1838,56 @@
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Fauhome — Diagnóstico Econômico Financeiro": {
+      "total": 5.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         }
       ]
@@ -1888,29 +1974,6 @@
         }
       ]
     },
-    "Spinta Equipamentos — Jornada Financeira": {
-      "total": 2.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        }
-      ]
-    },
     "Lippert Empreendimentos — Jornada Financeira": {
       "total": 3.0,
       "linhas": [
@@ -1963,56 +2026,6 @@
           "colaborador": "raissa.daros",
           "etapa": "2. Recebimento da documentação",
           "horas": 1.0
-        }
-      ]
-    },
-    "Stillus Home — Diagnóstico Econômico Financeiro": {
-      "total": 4.0,
-      "linhas": [
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 0.5
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-10",
-          "semana_label": "10/08 – 14/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Recebimento dos Documentos",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-17",
-          "semana_label": "17/08 – 21/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Recebimento dos Documentos",
-          "horas": 0.5
         }
       ]
     },
