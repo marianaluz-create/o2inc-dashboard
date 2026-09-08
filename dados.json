@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-07T22:40:19.336196",
+  "gerado_em": "2026-09-08T14:59:48.415364",
   "dados": {
     "2026": {
       "07": {
@@ -259,13 +259,13 @@
         ]
       },
       "09": {
-        "total_horas": 15.5,
-        "total_faturavel": 15.5,
+        "total_horas": 17.5,
+        "total_faturavel": 17.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 4.5
+            "horas": 6.5
           },
           {
             "nome": "Agrotop — Diagnóstico Econômico Financeiro",
@@ -299,10 +299,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 15.5,
-            "faturavel": 15.5,
+            "total": 17.5,
+            "faturavel": 17.5,
             "nao_faturavel": 0.0,
-            "entradas": 14
+            "entradas": 15
           }
         ]
       },
@@ -1414,7 +1414,7 @@
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 100.23,
+      "total": 102.23,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1766,6 +1766,15 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
           "horas": 1.0
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
         }
       ]
     },
