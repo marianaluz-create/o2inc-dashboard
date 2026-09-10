@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-10T14:55:06.803885",
+  "gerado_em": "2026-09-10T22:22:17.330526",
   "dados": {
     "2026": {
       "07": {
@@ -259,20 +259,24 @@
         ]
       },
       "09": {
-        "total_horas": 17.5,
-        "total_faturavel": 17.5,
+        "total_horas": 21.5,
+        "total_faturavel": 21.5,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 6.5
+            "horas": 7.5
+          },
+          {
+            "nome": "Spinta Equipamentos — Jornada Financeira",
+            "horas": 3.0
           },
           {
             "nome": "Agrotop — Diagnóstico Econômico Financeiro",
             "horas": 3.0
           },
           {
-            "nome": "Spinta Equipamentos — Jornada Financeira",
+            "nome": "Asiana — Jornada Financeira",
             "horas": 2.0
           },
           {
@@ -299,10 +303,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 17.5,
-            "faturavel": 17.5,
+            "total": 21.5,
+            "faturavel": 21.5,
             "nao_faturavel": 0.0,
-            "entradas": 15
+            "entradas": 18
           }
         ]
       },
@@ -513,7 +517,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 47.56,
+      "total": 49.56,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -658,6 +662,15 @@
           "colaborador": "raissa.daros",
           "etapa": "6. Reunião de acompanhamento das entregas",
           "horas": 3.06
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "9. Trabalhos Internos",
+          "horas": 2.0
         }
       ]
     },
@@ -1414,7 +1427,7 @@
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 102.23,
+      "total": 103.23,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1774,7 +1787,39 @@
           "mes": "09",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
+          "horas": 3.0
+        }
+      ]
+    },
+    "Spinta Equipamentos — Jornada Financeira": {
+      "total": 4.0,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
         }
       ]
     },
@@ -1834,29 +1879,6 @@
           "colaborador": "raissa.daros",
           "etapa": "4. Apresentação do Diagnóstico 360°",
           "horas": 1.0
-        }
-      ]
-    },
-    "Spinta Equipamentos — Jornada Financeira": {
-      "total": 3.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 2.0
         }
       ]
     },
