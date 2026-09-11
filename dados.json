@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-10T22:22:17.330526",
+  "gerado_em": "2026-09-11T14:54:49.051173",
   "dados": {
     "2026": {
       "07": {
@@ -259,13 +259,17 @@
         ]
       },
       "09": {
-        "total_horas": 21.5,
-        "total_faturavel": 21.5,
+        "total_horas": 26.0,
+        "total_faturavel": 26.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
             "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 7.5
+            "horas": 8.5
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 4.0
           },
           {
             "nome": "Spinta Equipamentos — Jornada Financeira",
@@ -276,12 +280,16 @@
             "horas": 3.0
           },
           {
-            "nome": "Asiana — Jornada Financeira",
+            "nome": "Fight Analytics — Plano de Contas",
             "horas": 2.0
           },
           {
-            "nome": "Fight Analytics — Plano de Contas",
-            "horas": 2.0
+            "nome": "Lippert Empreendimentos — Jornada Financeira",
+            "horas": 1.5
+          },
+          {
+            "nome": "DL Medicamentos — Jornada Financeira",
+            "horas": 1.0
           },
           {
             "nome": "Stillus Home — Diagnóstico Econômico Financeiro",
@@ -294,19 +302,15 @@
           {
             "nome": "AR3 Pro — Jornada Financeira",
             "horas": 1.0
-          },
-          {
-            "nome": "Lippert Empreendimentos — Jornada Financeira",
-            "horas": 1.0
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 21.5,
-            "faturavel": 21.5,
+            "total": 26.0,
+            "faturavel": 26.0,
             "nao_faturavel": 0.0,
-            "entradas": 18
+            "entradas": 22
           }
         ]
       },
@@ -517,7 +521,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 49.56,
+      "total": 51.56,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -670,7 +674,7 @@
           "mes": "09",
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
-          "horas": 2.0
+          "horas": 4.0
         }
       ]
     },
@@ -1426,8 +1430,90 @@
         }
       ]
     },
+    "DL Medicamentos — Jornada Financeira": {
+      "total": 5.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Lippert Empreendimentos — Jornada Financeira": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentos e Atualização dos Documentos",
+          "horas": 0.5
+        }
+      ]
+    },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 103.23,
+      "total": 104.23,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1787,7 +1873,7 @@
           "mes": "09",
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
-          "horas": 3.0
+          "horas": 4.0
         }
       ]
     },
@@ -2014,29 +2100,6 @@
         }
       ]
     },
-    "Lippert Empreendimentos — Jornada Financeira": {
-      "total": 3.0,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
     "Tchau 33 — Diagnóstico Econômico Financeiro": {
       "total": 3.5,
       "linhas": [
@@ -2089,47 +2152,6 @@
           "colaborador": "raissa.daros",
           "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
-        }
-      ]
-    },
-    "DL Medicamentos — Jornada Financeira": {
-      "total": 4.0,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kick Off",
-          "horas": 1.5
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização",
-          "horas": 0.5
         }
       ]
     },
