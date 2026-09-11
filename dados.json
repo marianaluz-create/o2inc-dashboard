@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-09-11T14:54:49.051173",
+  "gerado_em": "2026-09-11T22:21:57.293953",
   "dados": {
     "2026": {
       "07": {
@@ -259,8 +259,8 @@
         ]
       },
       "09": {
-        "total_horas": 26.0,
-        "total_faturavel": 26.0,
+        "total_horas": 27.0,
+        "total_faturavel": 27.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
@@ -288,6 +288,10 @@
             "horas": 1.5
           },
           {
+            "nome": "Obralar — Jornada Financeira",
+            "horas": 1.0
+          },
+          {
             "nome": "DL Medicamentos — Jornada Financeira",
             "horas": 1.0
           },
@@ -307,10 +311,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 26.0,
-            "faturavel": 26.0,
+            "total": 27.0,
+            "faturavel": 27.0,
             "nao_faturavel": 0.0,
-            "entradas": 22
+            "entradas": 23
           }
         ]
       },
@@ -679,7 +683,7 @@
       ]
     },
     "Obralar — Jornada Financeira": {
-      "total": 8.0,
+      "total": 9.0,
       "linhas": [
         {
           "semana": "2026-06-15",
@@ -751,6 +755,15 @@
           "mes": "07",
           "colaborador": "raissa.daros",
           "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
           "horas": 1.0
         }
       ]
