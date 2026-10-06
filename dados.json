@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-06T17:05:12.236207",
+  "gerado_em": "2026-10-06T23:40:36.386814",
   "dados": {
     "2026": {
       "07": {
@@ -255,6 +255,26 @@
             "faturavel": 2.0,
             "nao_faturavel": 0.0,
             "entradas": 2
+          }
+        ]
+      },
+      "10": {
+        "total_horas": 0.0,
+        "total_faturavel": 0.0,
+        "total_nao_faturavel": 0.0,
+        "por_projeto": [
+          {
+            "nome": "Sem cliente — Sem projeto",
+            "horas": 0.0
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "raissa.daros",
+            "total": 0.0,
+            "faturavel": 0.0,
+            "nao_faturavel": 0.0,
+            "entradas": 1
           }
         ]
       },
