@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-08T17:46:44.688172",
+  "gerado_em": "2026-10-09T00:12:50.367760",
   "dados": {
     "2026": {
       "07": {
@@ -259,22 +259,38 @@
         ]
       },
       "10": {
-        "total_horas": 0.0,
-        "total_faturavel": 0.0,
+        "total_horas": 11.0,
+        "total_faturavel": 11.0,
         "total_nao_faturavel": 0.0,
         "por_projeto": [
           {
-            "nome": "Sem cliente — Sem projeto",
-            "horas": 0.0
+            "nome": "Samba Decor — Plano de Contas",
+            "horas": 3.0
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 3.0
+          },
+          {
+            "nome": "Fight Analytics — Plano de Contas",
+            "horas": 2.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 2.0
+          },
+          {
+            "nome": "Spinta Equipamentos — Jornada Financeira",
+            "horas": 1.0
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 0.0,
-            "faturavel": 0.0,
+            "total": 11.0,
+            "faturavel": 11.0,
             "nao_faturavel": 0.0,
-            "entradas": 1
+            "entradas": 6
           }
         ]
       },
@@ -545,7 +561,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 51.56,
+      "total": 54.56,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -699,6 +715,15 @@
           "colaborador": "raissa.daros",
           "etapa": "9. Trabalhos Internos",
           "horas": 4.0
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "8. Entregas",
+          "horas": 3.0
         }
       ]
     },
@@ -1463,67 +1488,44 @@
         }
       ]
     },
-    "DL Medicamentos — Jornada Financeira": {
-      "total": 5.0,
+    "Fight Analytics — Plano de Contas": {
+      "total": 14.0,
       "linhas": [
         {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
           "ano": "2026",
-          "mes": "07",
+          "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kick Off",
-          "horas": 1.5
+          "etapa": "2. Envio da Lista de Documentos",
+          "horas": 2.0
         },
         {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização",
-          "horas": 0.5
-        },
-        {
-          "semana": "2026-09-07",
-          "semana_label": "07/09 – 11/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Lippert Empreendimentos — Jornada Financeira": {
-      "total": 3.5,
-      "linhas": [
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
+          "semana": "2026-08-03",
+          "semana_label": "03/08 – 07/08",
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
           "etapa": "1. Kickoff",
-          "horas": 2.0
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-10",
+          "semana_label": "10/08 – 14/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Validação do Plano de Contas",
+          "horas": 4.0
         },
         {
           "semana": "2026-08-31",
@@ -1531,22 +1533,54 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
+          "etapa": "6. Treinamento do Time Interno",
+          "horas": 2.0
         },
         {
-          "semana": "2026-09-07",
-          "semana_label": "07/09 – 11/09",
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
           "ano": "2026",
-          "mes": "09",
+          "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentos e Atualização dos Documentos",
-          "horas": 0.5
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 2.0
+        }
+      ]
+    },
+    "Samba Decor — Plano de Contas": {
+      "total": 6.67,
+      "linhas": [
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 3.67
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
         }
       ]
     },
     "Interno Serviços Especiais — O2 - Gestão Interna": {
-      "total": 104.23,
+      "total": 106.23,
       "linhas": [
         {
           "semana": "2026-05-18",
@@ -1907,11 +1941,20 @@
           "colaborador": "raissa.daros",
           "etapa": "O2 - Gestão Interna",
           "horas": 4.0
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "Sem etapa",
+          "horas": 2.0
         }
       ]
     },
     "Spinta Equipamentos — Jornada Financeira": {
-      "total": 4.0,
+      "total": 5.0,
       "linhas": [
         {
           "semana": "2026-08-24",
@@ -1939,6 +1982,97 @@
           "colaborador": "raissa.daros",
           "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Reunião de acompanhamento das entregas",
+          "horas": 1.0
+        }
+      ]
+    },
+    "DL Medicamentos — Jornada Financeira": {
+      "total": 5.0,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização",
+          "horas": 0.5
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização",
+          "horas": 1.0
+        }
+      ]
+    },
+    "Lippert Empreendimentos — Jornada Financeira": {
+      "total": 3.5,
+      "linhas": [
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-09-07",
+          "semana_label": "07/09 – 11/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentos e Atualização dos Documentos",
+          "horas": 0.5
         }
       ]
     },
@@ -2083,56 +2217,6 @@
         }
       ]
     },
-    "Fight Analytics — Plano de Contas": {
-      "total": 12.0,
-      "linhas": [
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Envio da Lista de Documentos",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-08-03",
-          "semana_label": "03/08 – 07/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-10",
-          "semana_label": "10/08 – 14/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Diagnóstico e Dúvidas",
-          "horas": 3.0
-        },
-        {
-          "semana": "2026-08-17",
-          "semana_label": "17/08 – 21/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Validação do Plano de Contas",
-          "horas": 4.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "6. Treinamento do Time Interno",
-          "horas": 2.0
-        }
-      ]
-    },
     "Tchau 33 — Diagnóstico Econômico Financeiro": {
       "total": 3.5,
       "linhas": [
@@ -2185,20 +2269,6 @@
           "colaborador": "raissa.daros",
           "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
-        }
-      ]
-    },
-    "Samba Decor — Plano de Contas": {
-      "total": 3.67,
-      "linhas": [
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 3.67
         }
       ]
     }
