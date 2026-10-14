@@ -1,8 +1,59 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-14T15:44:38.900430",
+  "gerado_em": "2026-10-14T23:04:50.688112",
   "dados": {
     "2026": {
+      "10": {
+        "total_horas": 11.09,
+        "total_faturavel": 11.08,
+        "total_nao_faturavel": 0.01,
+        "por_projeto": [
+          {
+            "nome": "Samba Decor — Plano de Contas",
+            "horas": 3.0
+          },
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 3.0
+          },
+          {
+            "nome": "Fight Analytics — Plano de Contas",
+            "horas": 2.0
+          },
+          {
+            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
+            "horas": 2.0
+          },
+          {
+            "nome": "Spinta Equipamentos — Jornada Financeira",
+            "horas": 1.0
+          },
+          {
+            "nome": "Fauhome — Diagnóstico Econômico Financeiro",
+            "horas": 0.08
+          },
+          {
+            "nome": "Sem cliente — Sem projeto",
+            "horas": 0.01
+          }
+        ],
+        "por_colaborador": [
+          {
+            "nome": "raissa.daros",
+            "total": 11.0,
+            "faturavel": 11.0,
+            "nao_faturavel": 0.0,
+            "entradas": 6
+          },
+          {
+            "nome": "Cristiano Gomes ",
+            "total": 0.09,
+            "faturavel": 0.08,
+            "nao_faturavel": 0.01,
+            "entradas": 7
+          }
+        ]
+      },
       "07": {
         "total_horas": 139.15,
         "total_faturavel": 139.15,
@@ -258,42 +309,6 @@
           }
         ]
       },
-      "10": {
-        "total_horas": 11.0,
-        "total_faturavel": 11.0,
-        "total_nao_faturavel": 0.0,
-        "por_projeto": [
-          {
-            "nome": "Samba Decor — Plano de Contas",
-            "horas": 3.0
-          },
-          {
-            "nome": "Asiana — Jornada Financeira",
-            "horas": 3.0
-          },
-          {
-            "nome": "Fight Analytics — Plano de Contas",
-            "horas": 2.0
-          },
-          {
-            "nome": "Interno Serviços Especiais — O2 - Gestão Interna",
-            "horas": 2.0
-          },
-          {
-            "nome": "Spinta Equipamentos — Jornada Financeira",
-            "horas": 1.0
-          }
-        ],
-        "por_colaborador": [
-          {
-            "nome": "raissa.daros",
-            "total": 11.0,
-            "faturavel": 11.0,
-            "nao_faturavel": 0.0,
-            "entradas": 6
-          }
-        ]
-      },
       "09": {
         "total_horas": 27.0,
         "total_faturavel": 27.0,
@@ -429,6 +444,88 @@
     }
   },
   "detalhe_projetos": {
+    "Sem cliente — Sem projeto": {
+      "total": 1.01,
+      "linhas": [
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "Cristiano Gomes ",
+          "etapa": "Sem etapa",
+          "horas": 0.01
+        }
+      ]
+    },
+    "Fauhome — Diagnóstico Econômico Financeiro": {
+      "total": 5.08,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "Cristiano Gomes ",
+          "etapa": "5. Modelagem Financeira",
+          "horas": 0.08
+        }
+      ]
+    },
     "FromTherm — Valuation": {
       "total": 46.19,
       "linhas": [
@@ -959,20 +1056,6 @@
           "colaborador": "raissa.daros",
           "etapa": "5. Apresentação Diagnóstico 360°",
           "horas": 23.0
-        }
-      ]
-    },
-    "Sem cliente — Sem projeto": {
-      "total": 1.0,
-      "linhas": [
-        {
-          "semana": "2026-07-06",
-          "semana_label": "06/07 – 10/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
-          "horas": 1.0
         }
       ]
     },
@@ -2131,56 +2214,6 @@
           "mes": "09",
           "colaborador": "raissa.daros",
           "etapa": "4. Apresentação do Diagnóstico 360°",
-          "horas": 1.0
-        }
-      ]
-    },
-    "Fauhome — Diagnóstico Econômico Financeiro": {
-      "total": 5.0,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-31",
-          "semana_label": "31/08 – 04/09",
-          "ano": "2026",
-          "mes": "09",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         }
       ]
