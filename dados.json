@@ -1,23 +1,27 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-14T23:04:50.688112",
+  "gerado_em": "2026-10-15T15:31:41.003981",
   "dados": {
     "2026": {
       "10": {
-        "total_horas": 11.09,
-        "total_faturavel": 11.08,
-        "total_nao_faturavel": 0.01,
+        "total_horas": 24.59,
+        "total_faturavel": 22.58,
+        "total_nao_faturavel": 2.01,
         "por_projeto": [
+          {
+            "nome": "Asiana — Jornada Financeira",
+            "horas": 8.5
+          },
+          {
+            "nome": "Fight Analytics — Plano de Contas",
+            "horas": 8.0
+          },
           {
             "nome": "Samba Decor — Plano de Contas",
             "horas": 3.0
           },
           {
-            "nome": "Asiana — Jornada Financeira",
-            "horas": 3.0
-          },
-          {
-            "nome": "Fight Analytics — Plano de Contas",
+            "nome": "Petropack — Assessoria Financeira",
             "horas": 2.0
           },
           {
@@ -40,10 +44,10 @@
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 11.0,
-            "faturavel": 11.0,
-            "nao_faturavel": 0.0,
-            "entradas": 6
+            "total": 24.5,
+            "faturavel": 22.5,
+            "nao_faturavel": 2.0,
+            "entradas": 13
           },
           {
             "nome": "Cristiano Gomes ",
@@ -658,7 +662,7 @@
       ]
     },
     "Asiana — Jornada Financeira": {
-      "total": 54.56,
+      "total": 60.06,
       "linhas": [
         {
           "semana": "2026-05-25",
@@ -821,6 +825,24 @@
           "colaborador": "raissa.daros",
           "etapa": "8. Entregas",
           "horas": 3.0
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Reunião de acompanhamento das entregas",
+          "horas": 4.5
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "horas": 1.0
         }
       ]
     },
@@ -1571,8 +1593,22 @@
         }
       ]
     },
+    "Petropack — Assessoria Financeira": {
+      "total": 2.0,
+      "linhas": [
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "Estágio Estratégico",
+          "horas": 2.0
+        }
+      ]
+    },
     "Fight Analytics — Plano de Contas": {
-      "total": 14.0,
+      "total": 20.0,
       "linhas": [
         {
           "semana": "2026-08-03",
@@ -1627,6 +1663,15 @@
           "colaborador": "raissa.daros",
           "etapa": "3. Diagnóstico e Dúvidas",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Treinamento do Time Interno",
+          "horas": 6.0
         }
       ]
     },
@@ -1639,7 +1684,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 3.67
         },
         {
@@ -1648,17 +1693,8 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "3. Diagnóstico e Dúvidas",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-10-05",
-          "semana_label": "05/10 – 09/10",
-          "ano": "2026",
-          "mes": "10",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 3.0
         }
       ]
     },
