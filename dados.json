@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-15T15:31:41.003981",
+  "gerado_em": "2026-10-15T22:57:38.400060",
   "dados": {
     "2026": {
       "10": {
@@ -1140,7 +1140,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1149,7 +1149,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1158,7 +1158,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1167,7 +1167,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1176,7 +1176,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1185,7 +1185,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
@@ -1684,7 +1684,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 3.67
         },
         {
@@ -1693,8 +1693,17 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 3.0
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
         }
       ]
     },
