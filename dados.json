@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-15T22:57:38.400060",
+  "gerado_em": "2026-10-16T15:17:56.104463",
   "dados": {
     "2026": {
       "10": {
@@ -1140,7 +1140,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -1149,7 +1149,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 0.5
         },
         {
@@ -1158,7 +1158,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -1167,7 +1167,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Apresentação do Estágio Estratégico",
           "horas": 1.0
         },
         {
@@ -1176,7 +1176,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
           "horas": 2.0
         },
         {
@@ -1185,7 +1185,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Apresentação Diagnóstico 360°",
           "horas": 1.0
         }
       ]
@@ -1534,7 +1534,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1543,7 +1543,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 1.5
         },
         {
@@ -1552,7 +1552,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.87
         },
         {
@@ -1561,7 +1561,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1570,7 +1570,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "4. Apresentação do Diagnóstico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1579,7 +1579,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "5. Modelagem Financeira",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1588,7 +1588,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "5. Modelagem Financeira",
+          "etapa": "Sem etapa",
           "horas": 3.0
         }
       ]
