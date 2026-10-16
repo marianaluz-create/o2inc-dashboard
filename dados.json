@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-16T15:17:56.104463",
+  "gerado_em": "2026-10-16T22:41:29.098543",
   "dados": {
     "2026": {
       "10": {
@@ -1534,7 +1534,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 2.0
         },
         {
@@ -1543,7 +1543,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 1.5
         },
         {
@@ -1552,7 +1552,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 0.87
         },
         {
@@ -1561,7 +1561,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Apresentação do Diagnóstico",
           "horas": 1.0
         },
         {
@@ -1570,7 +1570,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Apresentação do Diagnóstico",
           "horas": 1.0
         },
         {
@@ -1579,7 +1579,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Modelagem Financeira",
           "horas": 1.0
         },
         {
@@ -1588,7 +1588,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Modelagem Financeira",
           "horas": 3.0
         }
       ]
@@ -2090,7 +2090,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2099,7 +2099,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -2108,7 +2108,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2117,7 +2117,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "6. Reunião de acompanhamento das entregas",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
