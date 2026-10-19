@@ -1,20 +1,24 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-19T17:22:15.744214",
+  "gerado_em": "2026-10-19T23:29:32.092614",
   "dados": {
     "2026": {
       "10": {
-        "total_horas": 24.59,
-        "total_faturavel": 22.58,
-        "total_nao_faturavel": 2.01,
+        "total_horas": 37.25,
+        "total_faturavel": 35.25,
+        "total_nao_faturavel": 2.0,
         "por_projeto": [
+          {
+            "nome": "Fight Analytics — Plano de Contas",
+            "horas": 11.0
+          },
+          {
+            "nome": "Tchau 33 — Diagnóstico Econômico Financeiro",
+            "horas": 9.67
+          },
           {
             "nome": "Asiana — Jornada Financeira",
             "horas": 8.5
-          },
-          {
-            "nome": "Fight Analytics — Plano de Contas",
-            "horas": 8.0
           },
           {
             "nome": "Samba Decor — Plano de Contas",
@@ -35,25 +39,21 @@
           {
             "nome": "Fauhome — Diagnóstico Econômico Financeiro",
             "horas": 0.08
-          },
-          {
-            "nome": "Sem cliente — Sem projeto",
-            "horas": 0.01
           }
         ],
         "por_colaborador": [
           {
             "nome": "raissa.daros",
-            "total": 24.5,
-            "faturavel": 22.5,
+            "total": 27.5,
+            "faturavel": 25.5,
             "nao_faturavel": 2.0,
-            "entradas": 13
+            "entradas": 14
           },
           {
             "nome": "Cristiano Gomes ",
-            "total": 0.09,
-            "faturavel": 0.08,
-            "nao_faturavel": 0.01,
+            "total": 9.75,
+            "faturavel": 9.75,
+            "nao_faturavel": 0.0,
             "entradas": 7
           }
         ]
@@ -448,29 +448,6 @@
     }
   },
   "detalhe_projetos": {
-    "Sem cliente — Sem projeto": {
-      "total": 1.01,
-      "linhas": [
-        {
-          "semana": "2026-07-06",
-          "semana_label": "06/07 – 10/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-10-12",
-          "semana_label": "12/10 – 16/10",
-          "ano": "2026",
-          "mes": "10",
-          "colaborador": "Cristiano Gomes ",
-          "etapa": "Sem etapa",
-          "horas": 0.01
-        }
-      ]
-    },
     "Fauhome — Diagnóstico Econômico Financeiro": {
       "total": 5.08,
       "linhas": [
@@ -527,6 +504,47 @@
           "colaborador": "Cristiano Gomes ",
           "etapa": "5. Modelagem Financeira",
           "horas": 0.08
+        }
+      ]
+    },
+    "Tchau 33 — Diagnóstico Econômico Financeiro": {
+      "total": 13.17,
+      "linhas": [
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "Sem etapa",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "Sem etapa",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "Sem etapa",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "Cristiano Gomes ",
+          "etapa": "Sem etapa",
+          "horas": 9.67
         }
       ]
     },
@@ -1081,6 +1099,20 @@
         }
       ]
     },
+    "Sem cliente — Sem projeto": {
+      "total": 1.0,
+      "linhas": [
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        }
+      ]
+    },
     "Vitra empreendimentos — Diagnóstico Econômico Financeiro": {
       "total": 4.75,
       "linhas": [
@@ -1593,22 +1625,8 @@
         }
       ]
     },
-    "Petropack — Assessoria Financeira": {
-      "total": 2.0,
-      "linhas": [
-        {
-          "semana": "2026-10-12",
-          "semana_label": "12/10 – 16/10",
-          "ano": "2026",
-          "mes": "10",
-          "colaborador": "raissa.daros",
-          "etapa": "Estágio Estratégico",
-          "horas": 2.0
-        }
-      ]
-    },
     "Fight Analytics — Plano de Contas": {
-      "total": 20.0,
+      "total": 23.0,
       "linhas": [
         {
           "semana": "2026-08-03",
@@ -1672,6 +1690,29 @@
           "colaborador": "raissa.daros",
           "etapa": "6. Treinamento do Time Interno",
           "horas": 6.0
+        },
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "7. Acompanhamento e Suporte",
+          "horas": 3.0
+        }
+      ]
+    },
+    "Petropack — Assessoria Financeira": {
+      "total": 2.0,
+      "linhas": [
+        {
+          "semana": "2026-10-12",
+          "semana_label": "12/10 – 16/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "Estágio Estratégico",
+          "horas": 2.0
         }
       ]
     },
@@ -2295,38 +2336,6 @@
         }
       ]
     },
-    "Tchau 33 — Diagnóstico Econômico Financeiro": {
-      "total": 3.5,
-      "linhas": [
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.5
-        },
-        {
-          "semana": "2026-07-20",
-          "semana_label": "20/07 – 24/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-08-24",
-          "semana_label": "24/08 – 28/08",
-          "ano": "2026",
-          "mes": "08",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Recebimento da documentação",
-          "horas": 1.0
-        }
-      ]
-    },
     "Manduplast — Diagnóstico Econômico Financeiro": {
       "total": 2.0,
       "linhas": [
@@ -2336,7 +2345,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -2345,7 +2354,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         }
       ]
