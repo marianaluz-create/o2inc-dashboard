@@ -1,11 +1,11 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-19T23:29:32.092614",
+  "gerado_em": "2026-10-20T15:34:59.927725",
   "dados": {
     "2026": {
       "10": {
-        "total_horas": 37.25,
-        "total_faturavel": 35.25,
+        "total_horas": 46.25,
+        "total_faturavel": 44.25,
         "total_nao_faturavel": 2.0,
         "por_projeto": [
           {
@@ -15,6 +15,10 @@
           {
             "nome": "Tchau 33 — Diagnóstico Econômico Financeiro",
             "horas": 9.67
+          },
+          {
+            "nome": "Fauhome — Diagnóstico Econômico Financeiro",
+            "horas": 9.08
           },
           {
             "nome": "Asiana — Jornada Financeira",
@@ -35,10 +39,6 @@
           {
             "nome": "Spinta Equipamentos — Jornada Financeira",
             "horas": 1.0
-          },
-          {
-            "nome": "Fauhome — Diagnóstico Econômico Financeiro",
-            "horas": 0.08
           }
         ],
         "por_colaborador": [
@@ -51,10 +51,10 @@
           },
           {
             "nome": "Cristiano Gomes ",
-            "total": 9.75,
-            "faturavel": 9.75,
+            "total": 18.75,
+            "faturavel": 18.75,
             "nao_faturavel": 0.0,
-            "entradas": 7
+            "entradas": 8
           }
         ]
       },
@@ -449,7 +449,7 @@
   },
   "detalhe_projetos": {
     "Fauhome — Diagnóstico Econômico Financeiro": {
-      "total": 5.08,
+      "total": 14.08,
       "linhas": [
         {
           "semana": "2026-07-13",
@@ -504,6 +504,15 @@
           "colaborador": "Cristiano Gomes ",
           "etapa": "5. Modelagem Financeira",
           "horas": 0.08
+        },
+        {
+          "semana": "2026-10-19",
+          "semana_label": "19/10 – 23/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "Cristiano Gomes ",
+          "etapa": "Sem etapa",
+          "horas": 9.0
         }
       ]
     },
@@ -516,7 +525,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.5
         },
         {
@@ -525,7 +534,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -534,7 +543,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimento da documentação",
           "horas": 1.0
         },
         {
@@ -543,7 +552,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "Cristiano Gomes ",
-          "etapa": "Sem etapa",
+          "etapa": "5. Modelagem Financeira",
           "horas": 9.67
         }
       ]
@@ -2313,7 +2322,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2322,7 +2331,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -2331,7 +2340,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
