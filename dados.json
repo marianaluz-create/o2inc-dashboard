@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-21T23:07:01.094685",
+  "gerado_em": "2026-10-22T15:48:54.556433",
   "dados": {
     "2026": {
       "10": {
@@ -1049,7 +1049,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kick Off",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1057,27 +1057,27 @@
           "semana_label": "08/06 – 12/06",
           "ano": "2026",
           "mes": "06",
-          "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
-          "horas": 1.0
+          "colaborador": "raissa.daros",
+          "etapa": "Sem etapa",
+          "horas": 2.0
         },
         {
           "semana": "2026-06-08",
           "semana_label": "08/06 – 12/06",
           "ano": "2026",
           "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "colaborador": "mariana.luz",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
-          "semana": "2026-06-08",
-          "semana_label": "08/06 – 12/06",
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kick Off",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 2.0
         },
         {
           "semana": "2026-06-15",
@@ -1085,25 +1085,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "9. Reuniões com time de Setup",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-06-15",
-          "semana_label": "15/06 – 19/06",
-          "ano": "2026",
-          "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "9. Reuniões com time de Setup",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-06-15",
-          "semana_label": "15/06 – 19/06",
-          "ano": "2026",
-          "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1112,17 +1094,8 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Set Up",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-06-22",
-          "semana_label": "22/06 – 26/06",
-          "ano": "2026",
-          "mes": "06",
-          "colaborador": "mariana.luz",
-          "etapa": "3. Apresentação do Estágio Estratégico",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 2.0
         },
         {
           "semana": "2026-06-29",
@@ -1130,7 +1103,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Set Up",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1139,7 +1112,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "9. Reuniões com time de Setup",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1148,7 +1121,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "9. Reuniões com time de Setup",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1157,7 +1130,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "9. Reuniões com time de Setup",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1166,7 +1139,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Set Up",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1175,7 +1148,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "9. Reuniões com time de Setup",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1184,7 +1157,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 23.0
         }
       ]
@@ -1779,8 +1752,35 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 4.63
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-05-18",
+          "semana_label": "18/05 – 22/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Retrabalho / Correções",
+          "horas": 0.13
         },
         {
           "semana": "2026-05-25",
@@ -1788,8 +1788,26 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 10.59
+          "etapa": "O2 - Treinamentos",
+          "horas": 5.5
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-05-25",
+          "semana_label": "25/05 – 29/05",
+          "ano": "2026",
+          "mes": "05",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Retrabalho / Correções",
+          "horas": 2.09
         },
         {
           "semana": "2026-06-01",
@@ -1797,8 +1815,17 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 5.25
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 3.25
+        },
+        {
+          "semana": "2026-06-01",
+          "semana_label": "01/06 – 05/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
         },
         {
           "semana": "2026-06-08",
@@ -1806,8 +1833,35 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 6.57
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 2.57
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 0.5
         },
         {
           "semana": "2026-06-15",
@@ -1815,8 +1869,26 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 4.67
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.5
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Treinamentos",
+          "horas": 1.17
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 1.0
         },
         {
           "semana": "2026-06-22",
@@ -1824,7 +1896,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 1.0
         },
         {
@@ -1833,7 +1905,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 2.0
         },
         {
@@ -1842,7 +1914,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 1.0
         },
         {
@@ -1851,8 +1923,26 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 9.2
+          "etapa": "O2 - Gestão Interna",
+          "horas": 5.2
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Comercial",
+          "horas": 1.0
         },
         {
           "semana": "2026-07-13",
@@ -1860,8 +1950,26 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 6.0
+          "etapa": "O2 - Gestão Interna",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 1.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 1.5
         },
         {
           "semana": "2026-07-20",
@@ -1869,8 +1977,26 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 12.76
+          "etapa": "O2 - Metodologia e Padronização",
+          "horas": 6.76
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 4.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
         },
         {
           "semana": "2026-07-27",
@@ -1878,8 +2004,17 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 6.83
+          "etapa": "O2 - Gestão Interna",
+          "horas": 5.33
+        },
+        {
+          "semana": "2026-07-27",
+          "semana_label": "27/07 – 31/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 1.5
         },
         {
           "semana": "2026-08-03",
@@ -1887,7 +2022,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 6.0
         },
         {
@@ -1896,7 +2031,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 3.0
         },
         {
@@ -1905,8 +2040,17 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 9.0
+          "etapa": "O2 - Gestão Interna",
+          "horas": 6.0
+        },
+        {
+          "semana": "2026-08-17",
+          "semana_label": "17/08 – 21/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 3.0
         },
         {
           "semana": "2026-08-24",
@@ -1914,8 +2058,17 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 6.23
+          "etapa": "O2 - Gestão Interna",
+          "horas": 4.23
+        },
+        {
+          "semana": "2026-08-24",
+          "semana_label": "24/08 – 28/08",
+          "ano": "2026",
+          "mes": "08",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.0
         },
         {
           "semana": "2026-08-31",
@@ -1923,8 +2076,17 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 4.5
+          "etapa": "O2 - Reuniões Internas",
+          "horas": 2.5
+        },
+        {
+          "semana": "2026-08-31",
+          "semana_label": "31/08 – 04/09",
+          "ano": "2026",
+          "mes": "09",
+          "colaborador": "raissa.daros",
+          "etapa": "O2 - Gestão Interna",
+          "horas": 2.0
         },
         {
           "semana": "2026-08-31",
@@ -1932,7 +2094,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 1.0
         },
         {
@@ -1941,7 +2103,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "O2 - Gestão Interna",
           "horas": 4.0
         },
         {
