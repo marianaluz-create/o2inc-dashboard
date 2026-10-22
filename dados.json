@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-22T15:48:54.556433",
+  "gerado_em": "2026-10-22T23:06:35.852180",
   "dados": {
     "2026": {
       "10": {
@@ -43,6 +43,10 @@
           {
             "nome": "Spinta Equipamentos — Jornada Financeira",
             "horas": 1.0
+          },
+          {
+            "nome": "Sem cliente — Sem projeto",
+            "horas": 0.0
           }
         ],
         "por_colaborador": [
@@ -51,7 +55,7 @@
             "total": 31.58,
             "faturavel": 31.58,
             "nao_faturavel": 0.0,
-            "entradas": 10
+            "entradas": 11
           },
           {
             "nome": "raissa.daros",
@@ -452,6 +456,20 @@
     }
   },
   "detalhe_projetos": {
+    "Sem cliente — Sem projeto": {
+      "total": 1.0,
+      "linhas": [
+        {
+          "semana": "2026-07-06",
+          "semana_label": "06/07 – 10/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        }
+      ]
+    },
     "Agrotop — Diagnóstico Econômico Financeiro": {
       "total": 23.2,
       "linhas": [
@@ -1049,7 +1067,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick Off",
           "horas": 0.5
         },
         {
@@ -1057,17 +1075,35 @@
           "semana_label": "08/06 – 12/06",
           "ano": "2026",
           "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 2.0
+          "colaborador": "mariana.luz",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
         },
         {
           "semana": "2026-06-08",
           "semana_label": "08/06 – 12/06",
           "ano": "2026",
           "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-08",
+          "semana_label": "08/06 – 12/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kick Off",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-15",
+          "semana_label": "15/06 – 19/06",
+          "ano": "2026",
+          "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
         },
         {
@@ -1076,16 +1112,16 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 2.0
+          "etapa": "9. Reuniões com time de Setup",
+          "horas": 1.0
         },
         {
           "semana": "2026-06-15",
           "semana_label": "15/06 – 19/06",
           "ano": "2026",
           "mes": "06",
-          "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "colaborador": "raissa.daros",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -1094,8 +1130,17 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
-          "horas": 2.0
+          "etapa": "Set Up",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-06-22",
+          "semana_label": "22/06 – 26/06",
+          "ano": "2026",
+          "mes": "06",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Apresentação do Estágio Estratégico",
+          "horas": 1.0
         },
         {
           "semana": "2026-06-29",
@@ -1103,7 +1148,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "Set Up",
           "horas": 1.0
         },
         {
@@ -1112,7 +1157,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
         },
         {
@@ -1121,7 +1166,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
         },
         {
@@ -1130,7 +1175,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
         },
         {
@@ -1139,7 +1184,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "Set Up",
           "horas": 1.0
         },
         {
@@ -1148,7 +1193,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "9. Reuniões com time de Setup",
           "horas": 1.0
         },
         {
@@ -1157,22 +1202,8 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Apresentação Diagnóstico 360°",
           "horas": 23.0
-        }
-      ]
-    },
-    "Sem cliente — Sem projeto": {
-      "total": 1.0,
-      "linhas": [
-        {
-          "semana": "2026-07-06",
-          "semana_label": "06/07 – 10/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
-          "horas": 1.0
         }
       ]
     },
@@ -1185,7 +1216,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1194,7 +1225,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1203,7 +1234,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.25
         },
         {
@@ -1212,7 +1243,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1221,7 +1252,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
