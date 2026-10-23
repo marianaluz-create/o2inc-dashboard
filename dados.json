@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-22T23:06:35.852180",
+  "gerado_em": "2026-10-23T15:40:06.405680",
   "dados": {
     "2026": {
       "10": {
@@ -1216,7 +1216,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 2.0
         },
         {
@@ -1225,7 +1225,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -1234,7 +1234,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 0.25
         },
         {
@@ -1243,7 +1243,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 0.5
         },
         {
@@ -1252,7 +1252,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 1.0
         }
       ]
@@ -2157,7 +2157,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2166,7 +2166,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -2175,7 +2175,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2184,7 +2184,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "6. Reunião de acompanhamento das entregas",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
