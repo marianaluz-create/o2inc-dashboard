@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-23T15:40:06.405680",
+  "gerado_em": "2026-10-23T22:58:19.500944",
   "dados": {
     "2026": {
       "10": {
@@ -823,7 +823,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -832,7 +832,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -841,7 +841,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 1.5
         },
         {
@@ -850,7 +850,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -859,7 +859,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 3.5
         },
         {
@@ -868,7 +868,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "5. Apresentação Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.5
         },
         {
@@ -877,7 +877,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -886,7 +886,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "9. Trabalhos Internos",
+          "etapa": "Sem etapa",
           "horas": 5.0
         },
         {
@@ -895,7 +895,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "9. Trabalhos Internos",
+          "etapa": "Sem etapa",
           "horas": 3.0
         },
         {
@@ -904,7 +904,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "9. Trabalhos Internos",
+          "etapa": "Sem etapa",
           "horas": 9.0
         },
         {
@@ -913,7 +913,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "9. Trabalhos Internos",
+          "etapa": "Sem etapa",
           "horas": 8.0
         },
         {
@@ -922,7 +922,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "9. Trabalhos Internos",
+          "etapa": "Sem etapa",
           "horas": 5.0
         },
         {
@@ -931,7 +931,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "6. Reunião de acompanhamento das entregas",
+          "etapa": "Sem etapa",
           "horas": 3.06
         },
         {
@@ -940,7 +940,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "9. Trabalhos Internos",
+          "etapa": "Sem etapa",
           "horas": 4.0
         },
         {
@@ -949,7 +949,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "8. Entregas",
+          "etapa": "Sem etapa",
           "horas": 3.0
         },
         {
@@ -958,17 +958,8 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "6. Reunião de acompanhamento das entregas",
-          "horas": 4.5
-        },
-        {
-          "semana": "2026-10-12",
-          "semana_label": "12/10 – 16/10",
-          "ano": "2026",
-          "mes": "10",
-          "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 5.5
         }
       ]
     },
@@ -2157,7 +2148,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -2166,7 +2157,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 2.0
         },
         {
@@ -2175,7 +2166,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -2184,7 +2175,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "6. Reunião de acompanhamento das entregas",
           "horas": 1.0
         }
       ]
