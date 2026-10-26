@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-26T17:10:13.036264",
+  "gerado_em": "2026-10-26T23:39:23.019023",
   "dados": {
     "2026": {
       "10": {
@@ -981,7 +981,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -990,7 +990,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kick Off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -999,7 +999,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1008,7 +1008,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1017,7 +1017,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1026,7 +1026,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1035,17 +1035,8 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-27",
-          "semana_label": "27/07 – 31/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 2.0
         },
         {
           "semana": "2026-09-07",
@@ -1053,7 +1044,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
@@ -2371,7 +2362,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -2380,7 +2371,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         }
       ]
