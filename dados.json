@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-28T17:01:59.750900",
+  "gerado_em": "2026-10-28T23:56:33.477819",
   "dados": {
     "2026": {
       "10": {
@@ -665,7 +665,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kick off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -674,7 +674,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kick off",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -683,7 +683,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kick off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -692,7 +692,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "6. Organização",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -701,7 +701,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "3. Modelagem Financeira",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -710,7 +710,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "3. Modelagem Financeira",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -728,8 +728,17 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "3. Modelagem Financeira",
+          "etapa": "Sem etapa",
           "horas": 2.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "Sem etapa",
+          "horas": 14.5
         },
         {
           "semana": "2026-07-13",
@@ -745,45 +754,9 @@
           "semana_label": "13/07 – 17/07",
           "ano": "2026",
           "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "3. Modelagem Financeira",
-          "horas": 12.5
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação para o Cliente",
-          "horas": 3.0
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "6. Organização",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "5. Apresentação para o Cliente",
-          "horas": 1.0
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "raissa.daros",
-          "etapa": "6. Organização",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 4.0
         }
       ]
     },
@@ -2248,7 +2221,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 2.0
         },
         {
@@ -2257,7 +2230,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -2266,7 +2239,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Envio da Lista de Documentos e Atualização dos Documentos",
           "horas": 0.5
         }
       ]
