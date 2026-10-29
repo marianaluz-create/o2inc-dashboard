@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-10-28T23:56:33.477819",
+  "gerado_em": "2026-10-29T17:20:42.687688",
   "dados": {
     "2026": {
       "10": {
@@ -665,7 +665,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick off",
           "horas": 1.0
         },
         {
@@ -674,7 +674,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick off",
           "horas": 2.0
         },
         {
@@ -683,7 +683,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick off",
           "horas": 1.0
         },
         {
@@ -692,7 +692,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "6. Organização",
           "horas": 1.0
         },
         {
@@ -701,7 +701,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Modelagem Financeira",
           "horas": 1.0
         },
         {
@@ -710,7 +710,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "3. Modelagem Financeira",
           "horas": 1.0
         },
         {
@@ -728,17 +728,8 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "3. Modelagem Financeira",
           "horas": 2.0
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
-          "horas": 14.5
         },
         {
           "semana": "2026-07-13",
@@ -754,9 +745,45 @@
           "semana_label": "13/07 – 17/07",
           "ano": "2026",
           "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Modelagem Financeira",
+          "horas": 12.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 4.0
+          "etapa": "5. Apresentação para o Cliente",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "6. Organização",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "5. Apresentação para o Cliente",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Organização",
+          "horas": 1.0
         }
       ]
     },
@@ -2312,7 +2339,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2321,7 +2348,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação do Estágio Estratégico",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -2330,7 +2357,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "5. Apresentação Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
