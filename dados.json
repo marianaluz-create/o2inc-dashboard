@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-02T20:39:20.028934",
+  "gerado_em": "2026-11-03T02:06:18.489547",
   "dados": {
     "2026": {
       "10": {
@@ -1266,7 +1266,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -1275,7 +1275,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 0.5
         },
         {
@@ -1284,7 +1284,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -1293,7 +1293,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Apresentação do Estágio Estratégico",
           "horas": 1.0
         },
         {
@@ -1302,7 +1302,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Envio da Lista de Documentação e Atualização da Documentação",
           "horas": 2.0
         },
         {
@@ -1311,7 +1311,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Apresentação Diagnóstico 360°",
           "horas": 1.0
         }
       ]
@@ -1375,7 +1375,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "mariana.luz",
-          "etapa": "1. Organização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1384,17 +1384,8 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
-          "horas": 12.62
-        },
-        {
-          "semana": "2026-05-18",
-          "semana_label": "18/05 – 22/05",
-          "ano": "2026",
-          "mes": "05",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Organização da Documentação",
-          "horas": 1.18
+          "etapa": "Sem etapa",
+          "horas": 13.8
         },
         {
           "semana": "2026-05-18",
@@ -1402,7 +1393,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "mariana.luz",
-          "etapa": "5. Organização do Trabalho",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1411,17 +1402,8 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
-          "horas": 2.5
-        },
-        {
-          "semana": "2026-05-25",
-          "semana_label": "25/05 – 29/05",
-          "ano": "2026",
-          "mes": "05",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Organização da Documentação",
-          "horas": 0.5
+          "etapa": "Sem etapa",
+          "horas": 3.0
         },
         {
           "semana": "2026-06-01",
@@ -1429,7 +1411,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "3. Apresentação",
+          "etapa": "Sem etapa",
           "horas": 8.0
         },
         {
@@ -1438,8 +1420,8 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "1. Organização da Documentação",
-          "horas": 5.0
+          "etapa": "Sem etapa",
+          "horas": 7.5
         },
         {
           "semana": "2026-06-08",
@@ -1447,17 +1429,8 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "3. Apresentação",
+          "etapa": "Sem etapa",
           "horas": 4.0
-        },
-        {
-          "semana": "2026-06-08",
-          "semana_label": "08/06 – 12/06",
-          "ano": "2026",
-          "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
-          "horas": 2.5
         },
         {
           "semana": "2026-06-15",
@@ -1465,7 +1438,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
+          "etapa": "Sem etapa",
           "horas": 4.5
         },
         {
@@ -1474,7 +1447,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
+          "etapa": "Sem etapa",
           "horas": 10.5
         },
         {
@@ -1483,7 +1456,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
+          "etapa": "Sem etapa",
           "horas": 8.0
         },
         {
@@ -1492,17 +1465,8 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "3. Apresentação",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-06-29",
-          "semana_label": "29/06 – 03/07",
-          "ano": "2026",
-          "mes": "06",
-          "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
-          "horas": 1.58
+          "etapa": "Sem etapa",
+          "horas": 3.58
         },
         {
           "semana": "2026-07-06",
@@ -1510,7 +1474,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
+          "etapa": "Sem etapa",
           "horas": 8.0
         },
         {
@@ -1519,7 +1483,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "2. Análises",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1528,7 +1492,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "1. Organização da Documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1537,7 +1501,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "5. Organização do Trabalho",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
