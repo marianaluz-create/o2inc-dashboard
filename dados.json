@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-05T00:47:28.510858",
+  "gerado_em": "2026-11-05T18:34:07.714632",
   "dados": {
     "2026": {
       "10": {
@@ -2157,7 +2157,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -2166,7 +2166,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 2.0
         },
         {
@@ -2175,7 +2175,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -2184,7 +2184,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "6. Reunião de acompanhamento das entregas",
           "horas": 1.0
         }
       ]
@@ -2248,7 +2248,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -2257,7 +2257,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "2. Execução do Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2266,7 +2266,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "4. Envio da Lista de Documentos e Atualização dos Documentos",
+          "etapa": "Sem etapa",
           "horas": 0.5
         }
       ]
