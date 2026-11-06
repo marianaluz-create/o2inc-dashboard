@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-05T18:34:07.714632",
+  "gerado_em": "2026-11-06T00:55:05.315652",
   "dados": {
     "2026": {
       "10": {
@@ -465,7 +465,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
@@ -2248,7 +2248,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 2.0
         },
         {
@@ -2257,7 +2257,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Execução do Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -2266,7 +2266,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Envio da Lista de Documentos e Atualização dos Documentos",
           "horas": 0.5
         }
       ]
