@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-10T02:36:53.984132",
+  "gerado_em": "2026-11-10T18:31:05.338395",
   "dados": {
     "2026": {
       "10": {
@@ -665,7 +665,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick off",
           "horas": 1.0
         },
         {
@@ -674,7 +674,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick off",
           "horas": 2.0
         },
         {
@@ -683,7 +683,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick off",
           "horas": 1.0
         },
         {
@@ -692,7 +692,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "6. Organização",
           "horas": 1.0
         },
         {
@@ -701,7 +701,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Modelagem Financeira",
           "horas": 1.0
         },
         {
@@ -710,7 +710,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "3. Modelagem Financeira",
           "horas": 1.0
         },
         {
@@ -728,17 +728,8 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "3. Modelagem Financeira",
           "horas": 2.0
-        },
-        {
-          "semana": "2026-07-13",
-          "semana_label": "13/07 – 17/07",
-          "ano": "2026",
-          "mes": "07",
-          "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
-          "horas": 14.5
         },
         {
           "semana": "2026-07-13",
@@ -754,9 +745,45 @@
           "semana_label": "13/07 – 17/07",
           "ano": "2026",
           "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "3. Modelagem Financeira",
+          "horas": 12.5
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 4.0
+          "etapa": "5. Apresentação para o Cliente",
+          "horas": 3.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "6. Organização",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "mariana.luz",
+          "etapa": "5. Apresentação para o Cliente",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-13",
+          "semana_label": "13/07 – 17/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "6. Organização",
+          "horas": 1.0
         }
       ]
     },
@@ -1298,7 +1325,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1307,7 +1334,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1316,7 +1343,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1325,7 +1352,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.25
         },
         {
@@ -1334,7 +1361,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
