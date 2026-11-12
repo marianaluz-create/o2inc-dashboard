@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-12T01:51:13.919722",
+  "gerado_em": "2026-11-12T18:44:06.835038",
   "dados": {
     "2026": {
       "10": {
@@ -1216,7 +1216,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1225,7 +1225,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1234,7 +1234,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.25
         },
         {
@@ -1243,7 +1243,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1252,7 +1252,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
@@ -1751,7 +1751,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 3.67
         },
         {
@@ -1760,8 +1760,17 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 3.0
+          "etapa": "3. Diagnóstico e Dúvidas",
+          "horas": 2.0
+        },
+        {
+          "semana": "2026-10-05",
+          "semana_label": "05/10 – 09/10",
+          "ano": "2026",
+          "mes": "10",
+          "colaborador": "raissa.daros",
+          "etapa": "1. Kickoff",
+          "horas": 1.0
         }
       ]
     },
