@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-16T20:51:07.741680",
+  "gerado_em": "2026-11-17T02:50:39.818509",
   "dados": {
     "2026": {
       "10": {
@@ -624,7 +624,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.5
         },
         {
@@ -633,7 +633,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -642,7 +642,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimento da documentação",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -651,7 +651,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "Cristiano Gomes ",
-          "etapa": "5. Modelagem Financeira",
+          "etapa": "Sem etapa",
           "horas": 9.67
         }
       ]
@@ -2339,7 +2339,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -2348,7 +2348,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Apresentação do Estágio Estratégico",
           "horas": 2.0
         },
         {
@@ -2357,7 +2357,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Apresentação Diagnóstico 360°",
           "horas": 1.0
         }
       ]
