@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-18T02:14:41.572505",
+  "gerado_em": "2026-11-18T19:16:27.721823",
   "dados": {
     "2026": {
       "10": {
@@ -465,7 +465,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kick Off",
           "horas": 1.0
         }
       ]
@@ -1751,7 +1751,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 3.67
         },
         {
@@ -1760,17 +1760,8 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "raissa.daros",
-          "etapa": "3. Diagnóstico e Dúvidas",
-          "horas": 2.0
-        },
-        {
-          "semana": "2026-10-05",
-          "semana_label": "05/10 – 09/10",
-          "ano": "2026",
-          "mes": "10",
-          "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
-          "horas": 1.0
+          "etapa": "Sem etapa",
+          "horas": 3.0
         }
       ]
     },
