@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-17T19:40:46.488620",
+  "gerado_em": "2026-11-18T02:14:41.572505",
   "dados": {
     "2026": {
       "10": {
@@ -465,7 +465,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kick Off",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
@@ -556,7 +556,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -565,8 +565,17 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
-          "horas": 2.0
+          "etapa": "4. Apresentação do Diagnóstico",
+          "horas": 1.0
+        },
+        {
+          "semana": "2026-07-20",
+          "semana_label": "20/07 – 24/07",
+          "ano": "2026",
+          "mes": "07",
+          "colaborador": "raissa.daros",
+          "etapa": "3. Efetuar Diagnóstico 360°",
+          "horas": 1.0
         },
         {
           "semana": "2026-07-27",
@@ -574,7 +583,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -583,7 +592,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 1.0
         },
         {
@@ -592,7 +601,7 @@
           "ano": "2026",
           "mes": "10",
           "colaborador": "Cristiano Gomes ",
-          "etapa": "Sem etapa",
+          "etapa": "5. Modelagem Financeira",
           "horas": 0.08
         },
         {
