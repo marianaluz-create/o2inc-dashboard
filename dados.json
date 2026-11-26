@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-26T02:42:48.980124",
+  "gerado_em": "2026-11-26T20:01:28.424821",
   "dados": {
     "2026": {
       "10": {
@@ -2339,7 +2339,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -2348,7 +2348,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Apresentação do Estágio Estratégico",
           "horas": 2.0
         },
         {
@@ -2357,7 +2357,7 @@
           "ano": "2026",
           "mes": "09",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "5. Apresentação Diagnóstico 360°",
           "horas": 1.0
         }
       ]
@@ -2371,7 +2371,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -2380,7 +2380,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "3. Efetuar Diagnóstico 360°",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
