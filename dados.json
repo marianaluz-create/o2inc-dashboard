@@ -1,6 +1,6 @@
 {
   "workspace": "O2Inc",
-  "gerado_em": "2026-11-27T02:42:43.753689",
+  "gerado_em": "2026-11-27T19:50:05.116808",
   "dados": {
     "2026": {
       "10": {
@@ -1216,7 +1216,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "raissa.daros",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 2.0
         },
         {
@@ -1225,7 +1225,7 @@
           "ano": "2026",
           "mes": "04",
           "colaborador": "mariana.luz",
-          "etapa": "1. Kickoff",
+          "etapa": "Sem etapa",
           "horas": 1.0
         },
         {
@@ -1234,7 +1234,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.25
         },
         {
@@ -1243,7 +1243,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 0.5
         },
         {
@@ -1252,7 +1252,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "mariana.luz",
-          "etapa": "2. Recebimentos de documentação",
+          "etapa": "Sem etapa",
           "horas": 1.0
         }
       ]
@@ -1592,7 +1592,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.5
         },
         {
@@ -1601,7 +1601,7 @@
           "ano": "2026",
           "mes": "05",
           "colaborador": "mariana.luz",
-          "etapa": "Sem etapa",
+          "etapa": "1. Kickoff",
           "horas": 1.0
         },
         {
@@ -1610,7 +1610,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "3. Efetuar Diagnóstico 360°",
           "horas": 2.75
         },
         {
@@ -1619,7 +1619,7 @@
           "ano": "2026",
           "mes": "06",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 0.25
         },
         {
@@ -1628,7 +1628,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 0.5
         },
         {
@@ -1637,7 +1637,7 @@
           "ano": "2026",
           "mes": "07",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "2. Recebimentos de documentação",
           "horas": 1.0
         },
         {
@@ -1646,7 +1646,7 @@
           "ano": "2026",
           "mes": "08",
           "colaborador": "raissa.daros",
-          "etapa": "Sem etapa",
+          "etapa": "4. Apresentação do Diagnóstico",
           "horas": 1.0
         }
       ]
